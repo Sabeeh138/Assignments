@@ -1,0 +1,4 @@
+# Preserve submitted artifact bytes and their recorded SHA-256 hashes.
+* -text
+*.pdf binary
+*.png binary

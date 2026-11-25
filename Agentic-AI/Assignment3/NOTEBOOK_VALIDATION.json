@@ -1,0 +1,29 @@
+{
+  "student": {
+    "name": "Muhammad Sabeeh",
+    "roll_number": "23K-0002"
+  },
+  "notebooks": {
+    "q1": {
+      "cells": 11,
+      "compiled_code_cells": 5,
+      "executed_code_cells": 5
+    },
+    "q2": {
+      "cells": 45,
+      "compiled_code_cells": 23,
+      "executed_code_cells": 0
+    },
+    "q3": {
+      "cells": 9,
+      "compiled_code_cells": 4,
+      "executed_code_cells": 4
+    },
+    "q4": {
+      "cells": 10,
+      "compiled_code_cells": 4,
+      "executed_code_cells": 4
+    }
+  },
+  "q2_note": "Not executed on a GPU; no training results added."
+}

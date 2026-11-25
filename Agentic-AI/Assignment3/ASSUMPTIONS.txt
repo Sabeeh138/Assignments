@@ -1,0 +1,23 @@
+Assumptions used throughout
+
+Name: Muhammad Sabeeh. Student roll: 23K-0002 (provided by user). R=2, digit sum=7, D=7.
+Q=1550, N=7, p=.11, H=6, B=$1220, T=8 seconds.
+All notebooks have a student header and the actual roll number in their submission filenames.
+
+Q1 prices: primary retrieved API/provider endpoint quotations, dated 2026-11-25.
+Open endpoint selection is the cheapest observed active listed price for the
+original workload, including flex. It is not a global lowest-price certificate.
+Cache scenario: 720 creations/month; all other matching requests hit. Where
+minimum length/lifetime could not be verified, no open-provider reduction is used.
+Lowest-reasoning output surcharges remain unknown for Grok 4.7 and gpt-oss-120b.
+Latency speeds: 120/180 tokens/s, .3/.2-second initial TTFT, .00005 seconds per
+additional input token, .5-second tools: explicit planning inputs, not measurements.
+GPU: A100 PCIe 80GB interpreted conservatively as 80e9 bytes; 10% reserved.
+Self-host occupancy: 60 s original-loop scenario; 4 s changed-workflow scenario.
+Changed workflow: deterministic router, parallel AQ/weather, local HI/KB,
+one 2500-input/120-output-token call with .11 retry probability.
+
+Q2: exact 1800/200 train/test, seed-fixed methods, general Glaive benchmark if
+the exact business-tool inventory is unsupported. Real CUDA execution is pending.
+Q4: Wilson confidence interval, sample SD (n-1), unsmoothed BLEU-4, ROUGE P/R/F1,
+and the documented NLTK METEOR alignment convention.

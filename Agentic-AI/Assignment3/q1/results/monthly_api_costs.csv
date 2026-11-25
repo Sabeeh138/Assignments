@@ -1,0 +1,13 @@
+model,rate_evidence,uncached_usd,cache_scenario_usd,eligible_prefix,billable_cached_prefix,cache_creations_assumed,cache_hits_assumed,write_premium_usd,storage_usd,within_budget_uncached,within_budget_cache_scenario,reasoning_surcharge_unknown
+GPT-4.1 mini,"Retrieved official context/output/prices; rate limits, speed and benchmark scores NR",1512.09072,1241.5764672,True,1408,720,640422.0,0.0,0,False,False,False
+GPT-4.1 nano,Retrieved official model listing; price supported by GPT-4.1 launch table; remaining technical fields need recheck,378.02268,310.3941168,True,1408,720,640422.0,0.0,0,True,True,False
+Claude Haiku 4.5,Retrieved official prices; other fields are documented configurations awaiting source recapture,4025.5515,4025.5515,False,0,0,0,0.0,0,False,False,False
+Claude Sonnet 4.5,Retrieved official prices; other fields are documented configurations awaiting source recapture,12076.6545,9483.7554,True,1500,720,640422.0,0.81,0,False,False,False
+Gemini 2.5 Flash-Lite,Retrieved public listing and pricing search result; caching/limits need recapture,378.02268,292.64570999999995,True,1500,720,640422.0,0.0,1.08,True,True,False
+Grok 4.7,Retrieved official context/input/output prices; total cost is a lower bound until reasoning tokens measured,7069.8042,7069.8042,False,0,0,0,0.0,0,False,False,True
+Qwen3-235B-A22B-Instruct-2507,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,309.465684,309.465684,False,0,0,0,0.0,0,True,True,False
+Qwen3-32B,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,234.0841248,234.0841248,False,0,0,0,0.0,0,True,True,False
+Llama-3.3-70B-Instruct,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,358.396704,358.396704,False,0,0,0,0.0,0,True,True,False
+Mistral-Small-3.2-24B-Instruct,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,207.187632,207.187632,False,0,0,0,0.0,0,True,True,False
+DeepSeek-V3.1,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,932.790465,932.790465,False,0,0,0,0.0,0,True,True,False
+gpt-oss-120b,Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR,120.766545,120.766545,False,0,0,0,0.0,0,,,True

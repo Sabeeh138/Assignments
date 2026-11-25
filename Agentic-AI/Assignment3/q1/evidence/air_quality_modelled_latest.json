@@ -1,0 +1,21 @@
+{
+  "latitude": 24.900002,
+  "longitude": 67.0,
+  "generationtime_ms": 0.10287761688232422,
+  "utc_offset_seconds": 18000,
+  "timezone": "Asia/Karachi",
+  "timezone_abbreviation": "GMT+5",
+  "elevation": 7.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "pm10": "\u03bcg/m\u00b3",
+    "pm2_5": "\u03bcg/m\u00b3"
+  },
+  "current": {
+    "time": "2026-11-25T15:00",
+    "interval": 3600,
+    "pm10": 39.3,
+    "pm2_5": 31.9
+  }
+}

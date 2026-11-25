@@ -1,0 +1,292 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 105,
+    "sha256": "c698ea97e92cafa5d31c13a4da4454971a5cabfb6797c0f3126b550459acba13"
+  },
+  {
+    "file": "AI_USE_DECLARATION.txt",
+    "bytes": 716,
+    "sha256": "1412fda81bd6775c2f714883e31952a2020585ee5978eec938904f89dfb4d643"
+  },
+  {
+    "file": "All_Questions.pdf",
+    "bytes": 181857,
+    "sha256": "25647b59865313d06b29fb189f49730f4e8e48f685f93274736ea7efd7c76f47"
+  },
+  {
+    "file": "ASSUMPTIONS.txt",
+    "bytes": 1519,
+    "sha256": "a0deffdd692f64228fbbe327ba7d941e9b8a8d960b9e7eaf08e864f56b626f70"
+  },
+  {
+    "file": "CALCULATION_VALIDATION.json",
+    "bytes": 493,
+    "sha256": "0b7a1b9d85357b7fdad1c44d0e2173b13c112305e59713da2dedb042ef5f5b23"
+  },
+  {
+    "file": "DOCUMENT_VALIDATION.json",
+    "bytes": 565,
+    "sha256": "934a68824ac9d9d94c1e3952741cae6cc3c64c6497c6deefcbd3f991dd462bfe"
+  },
+  {
+    "file": "NOTEBOOK_VALIDATION.json",
+    "bytes": 602,
+    "sha256": "f5fd0f44c30d340aaac022fe868af14823d0402abe54a10c51158774de9ca3f6"
+  },
+  {
+    "file": "q1/.gitignore",
+    "bytes": 10,
+    "sha256": "58f9a5a3dd4f735041d610dee0664f65740869ca58b4d43edc562ce19262b020"
+  },
+  {
+    "file": "q1/Assignment_Beta_Question_no_1_23K-0002.ipynb",
+    "bytes": 35608,
+    "sha256": "8f39f79a1c4030316c266cbc2671c845991fa2430116890225bd32d9e624c47f"
+  },
+  {
+    "file": "q1/build_catalog.py",
+    "bytes": 5989,
+    "sha256": "b907e3e3653bee07dbe745c7d86ba1c02c32cd491010e4d6981fe91353101a36"
+  },
+  {
+    "file": "q1/calculations.py",
+    "bytes": 7981,
+    "sha256": "2288d763c85f314179b17f9bd8cf6b17be4587d172b076709a2db34500750761"
+  },
+  {
+    "file": "q1/collect_evidence.py",
+    "bytes": 14092,
+    "sha256": "3b2df00c50d7b85b8b1d88cc2aaa11200016f7548e5c027756c8be76667910eb"
+  },
+  {
+    "file": "q1/cost_analysis.py",
+    "bytes": 6791,
+    "sha256": "221944ba3b3dfe5a205d126bc5f54de1c717fb600faaa47c629dc4dd8d606fb0"
+  },
+  {
+    "file": "q1/evidence/air_quality_modelled_latest.json",
+    "bytes": 477,
+    "sha256": "d47d9df28db99b065721cde8978bd9b7659980eba76f29e63de96c7f5703a90d"
+  },
+  {
+    "file": "q1/evidence/air_quality_observed_latest.json",
+    "bytes": 1787,
+    "sha256": "2a48b84be6c8b70303f4f543644b6fa87b4720fa27adb7aacd987a02020c3b37"
+  },
+  {
+    "file": "q1/evidence/openaq_locations_public.json",
+    "bytes": 120425,
+    "sha256": "30f580c2bb99c22db1961a32f579b6b8ebe8599d89dc6eb01dd64d0a4508ca65"
+  },
+  {
+    "file": "q1/evidence/timing_summary.json",
+    "bytes": 2000,
+    "sha256": "ed3cda7f704970eb4fc6101856ce99b2064c37181c2e2c89d5fb2fd71d91050d"
+  },
+  {
+    "file": "q1/evidence/tool_latency_primary_2026-11-25.csv",
+    "bytes": 45798,
+    "sha256": "f4fe7bbe6f259cfaffc4bec30611c3a7a1c5ca4a9fb8a06e7435382c7b9a2f31"
+  },
+  {
+    "file": "q1/evidence/tool_latency_raw.csv",
+    "bytes": 132084,
+    "sha256": "5f0549944aa29593195f6618c7685a3f689723ec1485948590a00ae24c1429d5"
+  },
+  {
+    "file": "q1/evidence/weather_latest.json",
+    "bytes": 567,
+    "sha256": "3ec3416446f1a294fab3173c755f60206b05b6f715c9b1cd2d90ce745fc1ddbd"
+  },
+  {
+    "file": "q1/figures/q1_break_even.png",
+    "bytes": 51742,
+    "sha256": "bc2f5bf13daa961662b1a50f3e62178dd44bedc4e96ea34f0f92bf87403660e8"
+  },
+  {
+    "file": "q1/figures/q1_monthly_costs.png",
+    "bytes": 69866,
+    "sha256": "5396f9a6f4b9c88564e42e7ee1049d726b95e4ba26c2d10985d5a49230665071"
+  },
+  {
+    "file": "q1/Question_1_Model_Comparison.pdf",
+    "bytes": 6619,
+    "sha256": "0dff323ad51f0c47e88ad72d19c057f2d85ebf93a3bc0da1c44d907b5f3aa82f"
+  },
+  {
+    "file": "q1/Question_1_Report.pdf",
+    "bytes": 101197,
+    "sha256": "2be350689e49dd100ded485af162177d5f279131c5f1d5f613d32f729e5bf9f2"
+  },
+  {
+    "file": "q1/research/model_catalog.csv",
+    "bytes": 8729,
+    "sha256": "a95a05bd084e10ea46c523ce6181bffde60328eff303a5ebaf956a1c3ec1a8d5"
+  },
+  {
+    "file": "q1/research/model_catalog.json",
+    "bytes": 17228,
+    "sha256": "acf4b0bfc065c67e2a0df5a45c117c5b8527527249dc24b4f39b37187959673d"
+  },
+  {
+    "file": "q1/research/verified_endpoints.json",
+    "bytes": 4498,
+    "sha256": "078373979d63d1506a540ec4f3e55d5191b9f246a9945ba56503fa5c45752910"
+  },
+  {
+    "file": "q1/research/verified_updates.json",
+    "bytes": 5156,
+    "sha256": "22d08e240d20cabc182e593e00204764da40a86ebc490a7baa257a50778b1d9b"
+  },
+  {
+    "file": "q1/results/break_even_curve.csv",
+    "bytes": 80434,
+    "sha256": "470df2e5efdf62d42ca36fa33812778aa319fcbc80c087a65dd3d321f760572d"
+  },
+  {
+    "file": "q1/results/calculations.json",
+    "bytes": 8780,
+    "sha256": "6e519d1d71ea7f3e329ce34e7b591075f1a475afb130279ac4de1585fc8cf62a"
+  },
+  {
+    "file": "q1/results/cost_analysis.json",
+    "bytes": 12691,
+    "sha256": "76062589c2078ac6541b4cf7cfe5da7e87a75927a519a3b08708d9976e4c5320"
+  },
+  {
+    "file": "q1/results/monthly_api_costs.csv",
+    "bytes": 2300,
+    "sha256": "3149841b59dcdb0b680c0b95fe9e74fc75bdb547ada5e5a13dab734c023d43af"
+  },
+  {
+    "file": "q1/RUN_TIMINGS.md",
+    "bytes": 1461,
+    "sha256": "3845931a531b7ce36814e61c8d6217e2ad0e3f41db82616892f0da7911150abc"
+  },
+  {
+    "file": "q1/saafhawa_kb.json",
+    "bytes": 955,
+    "sha256": "44de56c556ec651fc1eef4d051c972ac0afa58a72534f7d1c3efdb5fd5f42464"
+  },
+  {
+    "file": "q1/setup_openaq.py",
+    "bytes": 839,
+    "sha256": "a41b76733d94072b4c271eb97d2802f5ff1f326f7a5b2a5a28a7f7a0e9748965"
+  },
+  {
+    "file": "q1/sources/qwen3_32b_config.json",
+    "bytes": 757,
+    "sha256": "8034152c9180e4b08ca1f656efa7bf52e117766fc2a09c126db394a473f557a0"
+  },
+  {
+    "file": "q1/sources/qwen3_32b_metadata.json",
+    "bytes": 267,
+    "sha256": "594dd0cfb13d6377ea6a551ce7bad9c49eb26f90f3dd53fa4a9644573dc2c89f"
+  },
+  {
+    "file": "q1/sources/qwen_config_screenshot.png",
+    "bytes": 28441,
+    "sha256": "58275acb4e0a38a369686712ee0825aba26df7fce8125e2a7b7319b31dd42ec7"
+  },
+  {
+    "file": "q1/update_verified_catalog.py",
+    "bytes": 3340,
+    "sha256": "5c2198852b1c569629a7c27bac88b7411f4154efe0270ed680d74322319aa1af"
+  },
+  {
+    "file": "Q1_PROGRESS.md",
+    "bytes": 2050,
+    "sha256": "778a68c5181a2aa9bb316ef61e9ebd2502c7998ef101bfa516c044d880210278"
+  },
+  {
+    "file": "q2/Assignment_Beta_Question_no_2_23K-0002.ipynb",
+    "bytes": 109117,
+    "sha256": "4e1f8399d47f12ec29db6731d7919775f4129bdb77a3773f28eac64c2f4c295a"
+  },
+  {
+    "file": "q2/authoring_validation.json",
+    "bytes": 1213,
+    "sha256": "37e207663fc2919fdfe4676b931cdac882fe0a5f921b1247d4e3527f64e52985"
+  },
+  {
+    "file": "q2/q2_report.py",
+    "bytes": 15388,
+    "sha256": "22223cc1010765759f77280de5540ad621cf564dac1628dbe3a76214d8471765"
+  },
+  {
+    "file": "q2/Question_2_Report.pdf",
+    "bytes": 10478,
+    "sha256": "d15246a5d1c29538e871ba198d5ac49e44cf5aabfe78439e4fd0a8b9d5499f5a"
+  },
+  {
+    "file": "q2/Question_2_Theory.pdf",
+    "bytes": 3955,
+    "sha256": "e68f590f8df4b1f134d4067a3ef695f662a6718aa0f452acaf4efb670d8a4238"
+  },
+  {
+    "file": "q2/RUN_ON_COLAB.md",
+    "bytes": 1445,
+    "sha256": "277f0c9a90ec528adb19b27fbcc38630173c7d24eeeb039762877d058a68fdb7"
+  },
+  {
+    "file": "q3/Assignment_Beta_Question_no_3_23K-0002.ipynb",
+    "bytes": 6762,
+    "sha256": "aeab27625ad541949f10b3df3f144a0c005df21adf466ff9782e9df13cd5d7d9"
+  },
+  {
+    "file": "q3/calculated_results.json",
+    "bytes": 1947,
+    "sha256": "6a8562ab354ecd08e203a4d035f79f5ea81d3a1b6eaad54e7b59bcf592c07bd2"
+  },
+  {
+    "file": "q3/Question_3_Solution.pdf",
+    "bytes": 5418,
+    "sha256": "1cfc0e46d1b6580471a8db74f042b1a27707fac8d8f44dd418ffb97e45290c7b"
+  },
+  {
+    "file": "q4/Assignment_Beta_Question_no_4_23K-0002.ipynb",
+    "bytes": 13886,
+    "sha256": "d383e3880b1a37fb8318b9c554ed2445ac527a3891d99a24e8a26e68f2eb4399"
+  },
+  {
+    "file": "q4/calculated_results.json",
+    "bytes": 4115,
+    "sha256": "a3926cfcfac7d647d4648f16453fed9f9a34423538252f208876b7749d885529"
+  },
+  {
+    "file": "q4/classification_metrics.csv",
+    "bytes": 502,
+    "sha256": "22ba38f4146320d30b55f5bf6a1bac9c8cd33423309608cb343fc3572280dd30"
+  },
+  {
+    "file": "q4/confusion_matrices.png",
+    "bytes": 30236,
+    "sha256": "5b0cbd191d69050f2f365f8533589d62c223c0c19bed77a664a873e0a284abd8"
+  },
+  {
+    "file": "q4/Question_4_Solution.pdf",
+    "bytes": 51972,
+    "sha256": "4da2347c7d8d4200a1155eb3d97273102e0b11c6bf3fe5503c8c7d0bb2cb56c9"
+  },
+  {
+    "file": "q5/Question_5_Two_Page_Summary.pdf",
+    "bytes": 7414,
+    "sha256": "4eb14be50a5c40c355b4266e781bb36920d8c1c00dedb5422038ddcfcbeb1375"
+  },
+  {
+    "file": "q5/REFERENCE.txt",
+    "bytes": 487,
+    "sha256": "065355cea80c5f572240577127a0a0b2a31ca119bc794355ab947b543225c50c"
+  },
+  {
+    "file": "README.md",
+    "bytes": 1440,
+    "sha256": "65723f1c0d945170bfa0042c12f8a32ed206fb9b1fb3b2bde1caad0a060bb898"
+  },
+  {
+    "file": "SUBMISSION_CHECKLIST.md",
+    "bytes": 3501,
+    "sha256": "8dab838ac3e44548351050b1db3fc6ff2242f5248f5485cb40c58f4c82724351"
+  }
+]

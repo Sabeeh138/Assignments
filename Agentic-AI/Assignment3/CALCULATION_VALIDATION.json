@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "student_name": "Muhammad Sabeeh",
+  "roll_number": "23K-0002",
+  "q1_parameters": {
+    "R": 2,
+    "D": 7,
+    "Q": 1550,
+    "N": 7,
+    "p": 0.11,
+    "H": 6,
+    "B": 1220,
+    "T": 8
+  },
+  "input_per_query": 33440.0,
+  "output_per_query": 2931.0,
+  "monthly_queries": 83700,
+  "q3_gradient_check": "passed",
+  "q3_q4_values": "unchanged; calculation cells re-executed",
+  "q1_q2_empirical_gaps": "remain as listed in submission checklist"
+}

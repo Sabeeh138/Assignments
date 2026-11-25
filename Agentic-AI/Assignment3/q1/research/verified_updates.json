@@ -1,0 +1,83 @@
+{
+  "GPT-4.1 mini": {
+    "general_benchmark": "MMLU: 87.5%; OpenAI launch table [B2]"
+  },
+  "GPT-4.1 nano": {
+    "tool_benchmark": "BFCL v4 FC (2025-04-14): 33.05% [B1]",
+    "ttft_seconds": 0.87,
+    "output_tokens_per_second": 174,
+    "speed_source": "https://artificialanalysis.ai/models/gpt-4-1-nano",
+    "speed_caveat": "Reported profile is non-reasoning; page lists Azure and flags deprecated. Not a measured OpenAI-direct latency at Karachi or across every context length. The headline output-rate definition may include end-to-end time: it is not substituted for an independently measured decode rate in latency arithmetic."
+  },
+  "Claude Haiku 4.5": {
+    "general_benchmark": "SWE-bench Verified: 73.3%; 50 trials, 128K thinking budget; not non-thinking evidence",
+    "cache_write_multiplier": 1.25,
+    "cache_minimum_tokens": 4096,
+    "cache_ttl": "5 min default; 1 h optional; cache write multipliers 1.25x / 2x",
+    "cache_policy_source": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "benchmark_source": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  "Claude Sonnet 4.5": {
+    "tool_benchmark": "BFCL v4 FC (20250929): 73.24% [B1]",
+    "general_benchmark": "SWE-bench Verified: 77.2%; 10 trials, 200K thinking budget; not non-thinking evidence",
+    "cache_minimum_tokens": 1024,
+    "cache_ttl": "5 min default; 1 h optional; cache write multipliers 1.25x / 2x",
+    "cache_policy_source": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "benchmark_source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  "Grok 4.7": {
+    "cache_read_usd_per_million": 0.5,
+    "reasoning_setting": "reasoning_effort=low; supports low/medium/high/xhigh; residual reasoning volume unknown",
+    "new_paid_rpm": "Public model ceiling 150 RPS = 9000 RPM; new-account entitlement unverified",
+    "new_paid_tpm": "Public model ceiling 50,000,000 TPM; new-account entitlement unverified",
+    "tool_benchmark": "Terminal-Bench 4.0: 37.6%, xhigh; agentic terminal-use benchmark; not BFCL",
+    "general_benchmark": "EEBench: 64.0%, xhigh; not low-effort evidence",
+    "benchmark_source": "https://x.ai/news/grok-4-7"
+  },
+  "Qwen3-32B": {
+    "new_paid_rpm": "RPM not published; 200 concurrent requests/model on direct DeepInfra",
+    "new_paid_tpm": "TPM not published; direct DeepInfra quota is concurrency, not tokens/minute",
+    "quota_source": "https://docs.deepinfra.com/account/rate-limits",
+    "tool_benchmark": "BFCL v3: 63.0%, non-thinking, Table 14",
+    "general_benchmark": "MMLU-Redux: 85.7%, non-thinking, Table 14",
+    "benchmark_source": "https://arxiv.org/html/2505.09388v1"
+  },
+  "Qwen3-235B-A22B-Instruct-2507": {
+    "new_paid_rpm": "RPM not published; 200 concurrent requests/model on direct DeepInfra",
+    "new_paid_tpm": "TPM not published; direct-provider concurrency is not a router entitlement",
+    "quota_source": "https://docs.deepinfra.com/account/rate-limits"
+  },
+  "Llama-3.3-70B-Instruct": {
+    "new_paid_rpm": "RPM not published; 200 concurrent requests/model on direct DeepInfra",
+    "new_paid_tpm": "TPM not published; concurrency policy is not an RPM/TPM guarantee",
+    "quota_source": "https://docs.deepinfra.com/account/rate-limits"
+  },
+  "Mistral-Small-3.2-24B-Instruct": {
+    "new_paid_rpm": "RPM not published; 200 concurrent requests/model on direct DeepInfra",
+    "new_paid_tpm": "TPM not published; concurrency policy is not an RPM/TPM guarantee",
+    "quota_source": "https://docs.deepinfra.com/account/rate-limits",
+    "tool_benchmark": "BFCL v4 FC (Mistral-small-2506): 37.15% [B1]"
+  },
+  "DeepSeek-V3.1": {
+    "new_paid_rpm": "RPM not published; 200 concurrent requests/model on direct DeepInfra",
+    "new_paid_tpm": "TPM not published; concurrency policy is not an RPM/TPM guarantee",
+    "quota_source": "https://docs.deepinfra.com/account/rate-limits",
+    "tool_benchmark": "Terminal-bench / Terminus 1: 31.3%, non-thinking",
+    "general_benchmark": "MMLU-Redux: 91.8%, non-thinking",
+    "benchmark_source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1/raw/main/README.md"
+  },
+  "gpt-oss-120b": {
+    "tool_benchmark": "Tau-Bench Retail: 67.8%, high reasoning",
+    "general_benchmark": "GPQA Diamond (no tools): 80.1%, high reasoning",
+    "benchmark_source": "https://catalog.ngc.nvidia.com/orgs/nim/openai/models/gpt-oss-120b/-",
+    "benchmark_caveat": "Both reported scores use high reasoning; neither establishes low-effort deployment performance."
+  },
+  "Gemini 2.5 Flash-Lite": {
+    "tool_benchmark": "BFCL v4 FC: 36.87% [B1]",
+    "general_benchmark": "Global MMLU Lite: 81.1%, June 17 non-thinking release",
+    "benchmark_source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+    "ttft_seconds": 0.35,
+    "speed_source": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite/providers",
+    "speed_caveat": "Non-reasoning provider table reports .35 s, FAQ .36 s; no decode-rate value retrieved. Do not reuse reasoning-mode 10.92 s."
+  }
+}

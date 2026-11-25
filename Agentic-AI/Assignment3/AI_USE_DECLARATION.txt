@@ -1,0 +1,12 @@
+AI assistance declaration
+
+OpenAI Codex assisted with assignment interpretation, public-source research,
+Python code, calculations, notebooks, report writing, packaging and verification.
+ReportLab produced PDFs; Matplotlib produced charts; NLTK checked METEOR;
+PDF utilities and visual review checked document layout.
+
+Q3 and Q4 numerical answers were calculated from the assignment's supplied data.
+Q1 separates retrieved provider quotations from planning assumptions.
+GPU accuracy/memory/training-time values and successful two-day API timings
+have not been fabricated. Earlier tiny CPU fixture results are identified as
+implementation validation and are not presented as the assignment's experiments.

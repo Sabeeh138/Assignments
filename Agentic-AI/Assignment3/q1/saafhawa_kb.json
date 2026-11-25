@@ -1,0 +1,5 @@
+[
+  {"id":"heat", "keywords":["heat","child","elderly","worker"], "guidance":"Reduce strenuous activity during extreme heat; use shade and cooler hours; maintain access to drinking water and follow official local alerts.", "source":"https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"},
+  {"id":"air", "keywords":["asthma","air","pollution","pm"], "guidance":"Air pollution increases health risks; reduce exposure when official air-quality information indicates unhealthy conditions, especially for vulnerable people.", "source":"https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health"},
+  {"id":"heat_index", "keywords":["heat","humidity"], "guidance":"Heat index describes apparent temperature in shade and light wind; direct sunshine can make conditions feel substantially hotter. It is not a medical diagnosis.", "source":"https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml"}
+]

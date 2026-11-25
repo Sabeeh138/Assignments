@@ -1,0 +1,4981 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 54
+  },
+  "results": [
+    {
+      "id": 8156,
+      "name": "Karachi",
+      "locality": "N/A",
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 23747,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8415,
+        "longitude": 67.0091
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0091,
+        24.8415,
+        67.0091,
+        24.8415
+      ],
+      "distance": 2275.31376878,
+      "datetimeFirst": {
+        "utc": "2019-05-22T22:00:00Z",
+        "local": "2019-05-23T03:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-04T12:00:00Z",
+        "local": "2025-03-04T17:00:00+05:00"
+      }
+    },
+    {
+      "id": 1894633,
+      "name": "Karachi, Pakistan",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 9,
+        "name": "Clarity"
+      },
+      "provider": {
+        "id": 166,
+        "name": "Clarity"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 4,
+          "name": "Clarity Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 7466368,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 7466369,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 7466370,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 7466371,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 7466372,
+          "name": "temperature f",
+          "parameter": {
+            "id": 128,
+            "name": "temperature",
+            "units": "f",
+            "displayName": "Temperature (F)"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.811053632574033,
+        "longitude": 67.05825434267292
+      },
+      "licenses": [
+        {
+          "id": 38,
+          "name": "CC0 1.0",
+          "attribution": {
+            "name": "Clarity",
+            "url": null
+          },
+          "dateFrom": "2021-10-20",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.05825434267292,
+        24.811053632574033,
+        67.05825434267292,
+        24.811053632574033
+      ],
+      "distance": 7976.27316377,
+      "datetimeFirst": {
+        "utc": "2023-11-28T16:58:32Z",
+        "local": "2023-11-28T21:58:32+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-02-28T12:42:56Z",
+        "local": "2024-02-28T17:42:56+05:00"
+      }
+    },
+    {
+      "id": 3089895,
+      "name": "Soomra Society, Scheme 33, Karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 11509,
+        "name": "Unknown Person"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 10815128,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 10815168,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 10815113,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 10815160,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 10815144,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 10815176,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.960929,
+        "longitude": 67.161759
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Unknown Person",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.161759,
+        24.960929,
+        67.161759,
+        24.960929
+      ],
+      "distance": 19664.33775384,
+      "datetimeFirst": {
+        "utc": "2024-10-02T17:00:00Z",
+        "local": "2024-10-02T22:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-10-25T16:00:00Z",
+        "local": "2024-10-25T21:00:00+05:00"
+      }
+    },
+    {
+      "id": 3182341,
+      "name": "Soomra Society, Scheme 33, Karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 11509,
+        "name": "Unknown Person"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 11077523,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 11077538,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 11077530,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 11077541,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 11077549,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 11077552,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.960929,
+        "longitude": 67.161759
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Unknown Person",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.161759,
+        24.960929,
+        67.161759,
+        24.960929
+      ],
+      "distance": 19664.33775384,
+      "datetimeFirst": {
+        "utc": "2024-10-25T18:00:00Z",
+        "local": "2024-10-25T23:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-10-28T05:00:00Z",
+        "local": "2024-10-28T10:00:00+05:00"
+      }
+    },
+    {
+      "id": 3213801,
+      "name": "Soomra Society, Scheme 33, Karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 11509,
+        "name": "Unknown Person"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 11157384,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 11157401,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 11157382,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 11157400,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 11157387,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 11157385,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.960929,
+        "longitude": 67.161759
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Unknown Person",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.161759,
+        24.960929,
+        67.161759,
+        24.960929
+      ],
+      "distance": 19664.33775384,
+      "datetimeFirst": {
+        "utc": "2024-11-01T19:00:00Z",
+        "local": "2024-11-02T00:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-11-07T13:00:00Z",
+        "local": "2024-11-07T18:00:00+05:00"
+      }
+    },
+    {
+      "id": 4791924,
+      "name": "Urban Resource Center",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13368463,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13368464,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13368465,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13368466,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13368467,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.868,
+        "longitude": 67.081833
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.081833,
+        24.868,
+        67.081833,
+        24.868
+      ],
+      "distance": 8198.90219265,
+      "datetimeFirst": {
+        "utc": "2025-06-19T08:00:00Z",
+        "local": "2025-06-19T13:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4793473,
+      "name": "NED University City Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13369653,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13369654,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13369655,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13369656,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13369657,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.85402121622299,
+        "longitude": 67.01483943786194
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.01483943786194,
+        24.85402121622299,
+        67.01483943786194,
+        24.85402121622299
+      ],
+      "distance": 1573.37833501,
+      "datetimeFirst": {
+        "utc": "2025-06-19T11:00:00Z",
+        "local": "2025-06-19T16:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-13T20:00:00Z",
+        "local": "2026-11-14T01:00:00+05:00"
+      }
+    },
+    {
+      "id": 4793983,
+      "name": "Agha Khan University IED",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13370570,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13370571,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13370572,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13370573,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13370574,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8920539,
+        "longitude": 67.0709382
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0709382,
+        24.8920539,
+        67.0709382,
+        24.8920539
+      ],
+      "distance": 7865.53689269,
+      "datetimeFirst": {
+        "utc": "2025-06-19T13:00:00Z",
+        "local": "2025-06-19T18:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4803209,
+      "name": "Karachi Metropolitan corporation ",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13377693,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13377694,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13377695,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13377696,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13377697,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.855514,
+        "longitude": 66.9252887
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        66.9252887,
+        24.855514,
+        66.9252887,
+        24.855514
+      ],
+      "distance": 7683.42829671,
+      "datetimeFirst": {
+        "utc": "2025-06-20T07:00:00Z",
+        "local": "2025-06-20T12:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4804767,
+      "name": "Karachi Zoo",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13378899,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13378900,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13378901,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13378902,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13378903,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8761487,
+        "longitude": 67.0230529
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0230529,
+        24.8761487,
+        67.0230529,
+        24.8761487
+      ],
+      "distance": 2801.81781972,
+      "datetimeFirst": {
+        "utc": "2025-06-20T10:00:00Z",
+        "local": "2025-06-20T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-07-03T09:00:00Z",
+        "local": "2026-07-03T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4805271,
+      "name": "Bagh Ibn e Qasim",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13379212,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13379213,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13379214,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13379215,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13379216,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8319874,
+        "longitude": 66.9968234
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        66.9968234,
+        24.8319874,
+        66.9968234,
+        24.8319874
+      ],
+      "distance": 3209.75142118,
+      "datetimeFirst": {
+        "utc": "2025-06-20T11:00:00Z",
+        "local": "2025-06-20T16:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-06-21T00:00:00Z",
+        "local": "2025-06-21T05:00:00+05:00"
+      }
+    },
+    {
+      "id": 4808325,
+      "name": "Aman Khan kaka khail",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13381250,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13381251,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13381252,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13381253,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13381254,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.95317,
+        "longitude": 67.063716
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.063716,
+        24.95317,
+        67.063716,
+        24.95317
+      ],
+      "distance": 12038.94394817,
+      "datetimeFirst": {
+        "utc": "2025-06-20T16:00:00Z",
+        "local": "2025-06-20T21:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4808369,
+      "name": "Gulistan-e-Johar",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13381835,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13381836,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13381837,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13381838,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13381839,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.9199655,
+        "longitude": 67.1366526
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.1366526,
+        24.9199655,
+        67.1366526,
+        24.9199655
+      ],
+      "distance": 15188.25474281,
+      "datetimeFirst": {
+        "utc": "2025-06-20T18:00:00Z",
+        "local": "2025-06-20T23:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-06-21T14:00:00Z",
+        "local": "2025-06-21T19:00:00+05:00"
+      }
+    },
+    {
+      "id": 4814287,
+      "name": "G3 Engineering Consultants",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13387130,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13387131,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13387132,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13387133,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13387134,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.806776,
+        "longitude": 67.0332484
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0332484,
+        24.806776,
+        67.0332484,
+        24.806776
+      ],
+      "distance": 6799.97934708,
+      "datetimeFirst": {
+        "utc": "2025-06-21T08:00:00Z",
+        "local": "2025-06-21T13:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-07-04T05:00:00Z",
+        "local": "2025-07-04T10:00:00+05:00"
+      }
+    },
+    {
+      "id": 4814327,
+      "name": "Zafar Memon DHA",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13387395,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13387396,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13387397,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13387398,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13387399,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.814741,
+        "longitude": 67.067062
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.067062,
+        24.814741,
+        67.067062,
+        24.814741
+      ],
+      "distance": 8388.92177029,
+      "datetimeFirst": {
+        "utc": "2025-06-21T09:00:00Z",
+        "local": "2025-06-21T14:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4815820,
+      "name": "DG House DHA 5",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13388479,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13388480,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13388481,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13388482,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13388483,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.795611,
+        "longitude": 67.04812
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.04812,
+        24.795611,
+        67.04812,
+        24.795611
+      ],
+      "distance": 8635.76941759,
+      "datetimeFirst": {
+        "utc": "2025-06-21T10:00:00Z",
+        "local": "2025-06-21T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4837113,
+      "name": "Aga khan University Main Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13406418,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13406419,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13406420,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13406421,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13406422,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.892402,
+        "longitude": 67.074663
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.074663,
+        24.892402,
+        67.074663,
+        24.892402
+      ],
+      "distance": 8221.32008812,
+      "datetimeFirst": {
+        "utc": "2025-06-23T09:00:00Z",
+        "local": "2025-06-23T14:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-10-29T12:00:00Z",
+        "local": "2026-10-29T17:00:00+05:00"
+      }
+    },
+    {
+      "id": 4837117,
+      "name": "NED Main Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13406433,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13406434,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13406435,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13406436,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13406437,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.9337634173323,
+        "longitude": 67.11354155158995
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.11354155158995,
+        24.9337634173323,
+        67.11354155158995,
+        24.9337634173323
+      ],
+      "distance": 13948.50859691,
+      "datetimeFirst": {
+        "utc": "2025-06-23T11:00:00Z",
+        "local": "2025-06-23T16:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4838122,
+      "name": "Urban Unit Karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13407058,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13407059,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13407060,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13407061,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13407062,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.86414,
+        "longitude": 67.07087
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.07087,
+        24.86414,
+        67.07087,
+        24.86414
+      ],
+      "distance": 7061.39923554,
+      "datetimeFirst": {
+        "utc": "2025-06-23T13:00:00Z",
+        "local": "2025-06-23T18:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4838712,
+      "name": "Asif Gulistan-e-Johar",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13408225,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13408226,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13408227,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13408228,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13408229,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.916229,
+        "longitude": 67.131546
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.131546,
+        24.916229,
+        67.131546,
+        24.916229
+      ],
+      "distance": 14545.02865577,
+      "datetimeFirst": {
+        "utc": "2025-06-23T16:00:00Z",
+        "local": "2025-06-23T21:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4840233,
+      "name": "Engr Muzaffar Malir Cantonment, Askari 5",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13409121,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13409122,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13409123,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13409124,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13409125,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.939636,
+        "longitude": 67.180983
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.180983,
+        24.939636,
+        67.180983,
+        24.939636
+      ],
+      "distance": 20167.88654567,
+      "datetimeFirst": {
+        "utc": "2025-06-23T18:00:00Z",
+        "local": "2025-06-23T23:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4847173,
+      "name": "Orangi Pilot Project",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13414780,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13414781,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13414782,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13414783,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13414784,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.9373111,
+        "longitude": 67.0189743
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0189743,
+        24.9373111,
+        67.0189743,
+        24.9373111
+      ],
+      "distance": 8676.33589095,
+      "datetimeFirst": {
+        "utc": "2025-06-24T07:00:00Z",
+        "local": "2025-06-24T12:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4906700,
+      "name": "CHS, Aga Khan University",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13470589,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13470590,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13470591,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13470592,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13470593,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.891757,
+        "longitude": 67.07182
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.07182,
+        24.891757,
+        67.07182,
+        24.891757
+      ],
+      "distance": 7931.27077599,
+      "datetimeFirst": {
+        "utc": "2025-06-30T07:00:00Z",
+        "local": "2025-06-30T12:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-07-22T11:00:00Z",
+        "local": "2025-07-22T16:00:00+05:00"
+      }
+    },
+    {
+      "id": 4932783,
+      "name": "Climate Action Center",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13490915,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13490916,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13490917,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13490918,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13490919,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.86377,
+        "longitude": 67.056642
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.056642,
+        24.86377,
+        67.056642,
+        24.86377
+      ],
+      "distance": 5623.4974382,
+      "datetimeFirst": {
+        "utc": "2025-07-02T12:00:00Z",
+        "local": "2025-07-02T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4985886,
+      "name": "G3 Engineering Consultants karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13533642,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13533643,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13533644,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13533645,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13533646,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.80697,
+        "longitude": 67.03319
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.03319,
+        24.80697,
+        67.03319,
+        24.80697
+      ],
+      "distance": 6778.28225561,
+      "datetimeFirst": {
+        "utc": "2025-07-07T05:00:00Z",
+        "local": "2025-07-07T10:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 4986945,
+      "name": "Solid waste Management ",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13534803,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13534804,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13534805,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13534806,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13534807,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8514342,
+        "longitude": 66.9265802
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        66.9265802,
+        24.8514342,
+        66.9265802,
+        24.8514342
+      ],
+      "distance": 7601.13518421,
+      "datetimeFirst": {
+        "utc": "2025-07-07T08:00:00Z",
+        "local": "2025-07-07T13:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-07-07T10:00:00Z",
+        "local": "2025-07-07T15:00:00+05:00"
+      }
+    },
+    {
+      "id": 5188633,
+      "name": "Lyari Dream House",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13682782,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13682783,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13682784,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13682785,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13682786,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.866596,
+        "longitude": 66.99636
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        66.99636,
+        24.866596,
+        66.99636,
+        24.866596
+      ],
+      "distance": 809.94815679,
+      "datetimeFirst": {
+        "utc": "2025-07-24T10:00:00Z",
+        "local": "2025-07-24T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-01T13:00:00Z",
+        "local": "2026-11-01T18:00:00+05:00"
+      }
+    },
+    {
+      "id": 5417948,
+      "name": "Solid waste Management ",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 13850278,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 13850279,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 13850280,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 13850281,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 13850282,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.851826700159624,
+        "longitude": 67.00896024947859
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.00896024947859,
+        24.851826700159624,
+        67.00896024947859,
+        24.851826700159624
+      ],
+      "distance": 1263.79957301,
+      "datetimeFirst": {
+        "utc": "2025-08-13T12:00:00Z",
+        "local": "2025-08-13T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-10-24T12:00:00Z",
+        "local": "2026-10-24T17:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135298,
+      "name": "Kerry Freight Pakistan Pvt Ltd",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671473,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.88964636103564,
+        "longitude": 67.08061342550339
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.08061342550339,
+        24.88964636103564,
+        67.08061342550339,
+        24.88964636103564
+      ],
+      "distance": 8651.12644873,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-12-12T06:00:00Z",
+        "local": "2025-12-12T11:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135302,
+      "name": "WWF-Pakistan Karachi Office",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671477,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8654,
+        "longitude": 67.0745
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0745,
+        24.8654,
+        67.0745,
+        24.8654
+      ],
+      "distance": 7436.17605881,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-23T20:00:00Z",
+        "local": "2026-11-24T01:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135311,
+      "name": "Korangi Sector 15",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671486,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.835349273134295,
+        "longitude": 67.1020030975342
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.1020030975342,
+        24.835349273134295,
+        67.1020030975342,
+        24.835349273134295
+      ],
+      "distance": 10578.20353184,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135314,
+      "name": "NED University City Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671489,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.853927,
+        "longitude": 67.014382
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.014382,
+        24.853927,
+        67.014382,
+        24.853927
+      ],
+      "distance": 1537.79557372,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-08-17T11:00:00Z",
+        "local": "2026-08-17T16:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135321,
+      "name": "Dawlance Pvt Ltd",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671496,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8543,
+        "longitude": 67.2237
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.2237,
+        24.8543,
+        67.2237,
+        24.8543
+      ],
+      "distance": 22508.50317163,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135347,
+      "name": "TPL Insurance",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14671522,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8577,
+        "longitude": 67.0541
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0541,
+        24.8577,
+        67.0541,
+        24.8577
+      ],
+      "distance": 5366.73432342,
+      "datetimeFirst": {
+        "utc": "2025-11-18T15:00:00Z",
+        "local": "2025-11-18T20:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-08-31T11:00:00Z",
+        "local": "2026-08-31T16:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135426,
+      "name": "Aga khan University Main Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14744851,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.892402,
+        "longitude": 67.074663
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.074663,
+        24.892402,
+        67.074663,
+        24.892402
+      ],
+      "distance": 8221.32008812,
+      "datetimeFirst": {
+        "utc": "2025-11-28T06:00:00Z",
+        "local": "2025-11-28T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-10-24T03:00:00Z",
+        "local": "2026-10-24T08:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135442,
+      "name": "Urban Unit Karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14686623,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.86414,
+        "longitude": 67.07087
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.07087,
+        24.86414,
+        67.07087,
+        24.86414
+      ],
+      "distance": 7061.39923554,
+      "datetimeFirst": {
+        "utc": "2025-11-20T12:00:00Z",
+        "local": "2025-11-20T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T06:00:00Z",
+        "local": "2026-11-25T11:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135443,
+      "name": "Engr Muzaffar Sir",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14721548,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.939636,
+        "longitude": 67.180983
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.180983,
+        24.939636,
+        67.180983,
+        24.939636
+      ],
+      "distance": 20167.88654567,
+      "datetimeFirst": {
+        "utc": "2025-11-25T08:00:00Z",
+        "local": "2025-11-25T13:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-09-15T20:00:00Z",
+        "local": "2026-09-16T01:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135449,
+      "name": "TDF MagnifiScience Centre",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 15904590,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.84656534821976,
+        "longitude": 67.0029981
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0029981,
+        24.84656534821976,
+        67.0029981,
+        24.84656534821976
+      ],
+      "distance": 1577.41433739,
+      "datetimeFirst": {
+        "utc": "2026-04-08T23:00:00Z",
+        "local": "2026-04-09T04:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135463,
+      "name": "DG House DHA 5",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14719908,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.795611,
+        "longitude": 67.04812
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.04812,
+        24.795611,
+        67.04812,
+        24.795611
+      ],
+      "distance": 8635.76941759,
+      "datetimeFirst": {
+        "utc": "2025-11-25T06:00:00Z",
+        "local": "2025-11-25T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-03-19T09:00:00Z",
+        "local": "2026-03-19T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135472,
+      "name": "Climate Action Center",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14721008,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.86377,
+        "longitude": 67.056642
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.056642,
+        24.86377,
+        67.056642,
+        24.86377
+      ],
+      "distance": 5623.4974382,
+      "datetimeFirst": {
+        "utc": "2025-11-25T12:00:00Z",
+        "local": "2025-11-25T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T06:00:00Z",
+        "local": "2026-11-25T11:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135505,
+      "name": "Asif Gulistan-e-Johar",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14686633,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.916229,
+        "longitude": 67.131546
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.131546,
+        24.916229,
+        67.131546,
+        24.916229
+      ],
+      "distance": 14545.02865577,
+      "datetimeFirst": {
+        "utc": "2025-11-20T12:00:00Z",
+        "local": "2025-11-20T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T06:00:00Z",
+        "local": "2026-11-25T11:00:00+05:00"
+      }
+    },
+    {
+      "id": 6135520,
+      "name": "Agha Khan University",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 23829,
+        "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 14686637,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.892054,
+        "longitude": 67.070938
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "Pakistan Air Quality Initiative (PAQI \u067e\u0627\u06a9\u06cc)",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.070938,
+        24.892054,
+        67.070938,
+        24.892054
+      ],
+      "distance": 7865.52364817,
+      "datetimeFirst": {
+        "utc": "2025-11-20T12:00:00Z",
+        "local": "2025-11-20T17:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-11-24T14:00:00Z",
+        "local": "2025-11-24T19:00:00+05:00"
+      }
+    },
+    {
+      "id": 6318824,
+      "name": "HHS IMC Jamshed Campus",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16034756,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8809,
+        "longitude": 67.0466
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0466,
+        24.8809,
+        67.0466,
+        24.8809
+      ],
+      "distance": 5113.5632193,
+      "datetimeFirst": {
+        "utc": "2026-04-23T06:00:00Z",
+        "local": "2026-04-23T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-05-06T05:00:00Z",
+        "local": "2026-05-06T10:00:00+05:00"
+      }
+    },
+    {
+      "id": 6318828,
+      "name": "TIP City Office - LIH",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16034760,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.818095393631435,
+        "longitude": 67.05294147133827
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.05294147133827,
+        24.818095393631435,
+        67.05294147133827,
+        24.818095393631435
+      ],
+      "distance": 7052.06565297,
+      "datetimeFirst": {
+        "utc": "2026-04-23T06:00:00Z",
+        "local": "2026-04-23T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6318833,
+      "name": "HHS Clifton",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16034765,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8157,
+        "longitude": 67.0058
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0058,
+        24.8157,
+        67.0058,
+        24.8157
+      ],
+      "distance": 5007.26051115,
+      "datetimeFirst": {
+        "utc": "2026-04-23T06:00:00Z",
+        "local": "2026-04-23T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-05-06T05:00:00Z",
+        "local": "2026-05-06T10:00:00+05:00"
+      }
+    },
+    {
+      "id": 6318849,
+      "name": "HHS Tariq Road karachi",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16034781,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8686,
+        "longitude": 67.0596
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0596,
+        24.8686,
+        67.0596,
+        24.8686
+      ],
+      "distance": 5976.44712673,
+      "datetimeFirst": {
+        "utc": "2026-04-23T06:00:00Z",
+        "local": "2026-04-23T11:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-05-06T05:00:00Z",
+        "local": "2026-05-06T10:00:00+05:00"
+      }
+    },
+    {
+      "id": 6346773,
+      "name": "Tariq Road C KHI",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16242902,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8686,
+        "longitude": 67.0596
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0596,
+        24.8686,
+        67.0596,
+        24.8686
+      ],
+      "distance": 5976.44712673,
+      "datetimeFirst": {
+        "utc": "2026-05-12T23:00:00Z",
+        "local": "2026-05-13T04:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6346774,
+      "name": "Faisal Cantonment A KHI",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16242903,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8909,
+        "longitude": 67.1748
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.1748,
+        24.8909,
+        67.1748,
+        24.8909
+      ],
+      "distance": 17868.55427339,
+      "datetimeFirst": {
+        "utc": "2026-05-12T23:00:00Z",
+        "local": "2026-05-13T04:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6346779,
+      "name": "Old Clifton Seven Towers",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16242908,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8158,
+        "longitude": 67.0306
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0306,
+        24.8158,
+        67.0306,
+        24.8158
+      ],
+      "distance": 5799.00491639,
+      "datetimeFirst": {
+        "utc": "2026-05-12T23:00:00Z",
+        "local": "2026-05-13T04:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6346780,
+      "name": "Clifton Block 1 C KHI",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16242909,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8157,
+        "longitude": 67.0058
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0058,
+        24.8157,
+        67.0058,
+        24.8157
+      ],
+      "distance": 5007.26051115,
+      "datetimeFirst": {
+        "utc": "2026-05-12T23:00:00Z",
+        "local": "2026-05-13T04:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T08:00:00Z",
+        "local": "2026-11-25T13:00:00+05:00"
+      }
+    },
+    {
+      "id": 6346782,
+      "name": "Jamshed Road C KHI",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16242911,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.8809,
+        "longitude": 67.0466
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0466,
+        24.8809,
+        67.0466,
+        24.8809
+      ],
+      "distance": 5113.5632193,
+      "datetimeFirst": {
+        "utc": "2026-05-13T01:00:00Z",
+        "local": "2026-05-13T06:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-06-12T06:00:00Z",
+        "local": "2026-06-12T11:00:00+05:00"
+      }
+    },
+    {
+      "id": 6416741,
+      "name": "Welkin Hitech Instruments Pvt. Ltd.",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 12,
+        "name": "AirGradient"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 7,
+          "name": "Unknown AirGradient Sensor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 16719734,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 16719735,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 16719736,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 16719737,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 16719738,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.917377745382414,
+        "longitude": 67.0963326615362
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "AirGradient",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.0963326615362,
+        24.917377745382414,
+        67.0963326615362,
+        24.917377745382414
+      ],
+      "distance": 11489.40510867,
+      "datetimeFirst": {
+        "utc": "2026-06-24T10:00:00Z",
+        "local": "2026-06-24T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-08-02T13:00:00Z",
+        "local": "2026-08-02T18:00:00+05:00"
+      }
+    },
+    {
+      "id": 6544882,
+      "name": "Maqsood Memon Clifton ",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 16818,
+        "name": "The Urban Unit"
+      },
+      "provider": {
+        "id": 66,
+        "name": "AirGradient"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 24,
+          "name": "AirGradient Open Air Generation 1 (O-1PST)"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 17658505,
+          "name": "pm1 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19,
+            "name": "pm1",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM1"
+          }
+        },
+        {
+          "id": 17658506,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 17658507,
+          "name": "relativehumidity %",
+          "parameter": {
+            "id": 98,
+            "name": "relativehumidity",
+            "units": "%",
+            "displayName": "RH"
+          }
+        },
+        {
+          "id": 17658508,
+          "name": "temperature c",
+          "parameter": {
+            "id": 100,
+            "name": "temperature",
+            "units": "c",
+            "displayName": "Temperature (C)"
+          }
+        },
+        {
+          "id": 17658509,
+          "name": "um003 particles/cm\u00b3",
+          "parameter": {
+            "id": 125,
+            "name": "um003",
+            "units": "particles/cm\u00b3",
+            "displayName": "PM0.3 count"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.810257,
+        "longitude": 67.032087
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "The Urban Unit",
+            "url": null
+          },
+          "dateFrom": "2023-07-15",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        67.032087,
+        24.810257,
+        67.032087,
+        24.810257
+      ],
+      "distance": 6405.65833999,
+      "datetimeFirst": {
+        "utc": "2026-09-17T10:00:00Z",
+        "local": "2026-09-17T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T09:00:00Z",
+        "local": "2026-11-25T14:00:00+05:00"
+      }
+    },
+    {
+      "id": 6551035,
+      "name": "Karachi Metropolitan corporation",
+      "locality": null,
+      "timezone": "Asia/Karachi",
+      "country": {
+        "id": 109,
+        "code": "PK",
+        "name": "Pakistan"
+      },
+      "owner": {
+        "id": 1,
+        "name": "OpenAQ admin"
+      },
+      "provider": {
+        "id": 440,
+        "name": "Hawanama"
+      },
+      "isMobile": false,
+      "isMonitor": false,
+      "instruments": [
+        {
+          "id": 17,
+          "name": "AirVisual"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 17768916,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 24.855514,
+        "longitude": 66.925289
+      },
+      "licenses": [
+        {
+          "id": 41,
+          "name": "CC BY 4.0",
+          "attribution": {
+            "name": "OpenAQ admin",
+            "url": null
+          },
+          "dateFrom": "2025-11-18",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        66.925289,
+        24.855514,
+        66.925289,
+        24.855514
+      ],
+      "distance": 7683.39806186,
+      "datetimeFirst": {
+        "utc": "2026-11-04T10:00:00Z",
+        "local": "2026-11-04T15:00:00+05:00"
+      },
+      "datetimeLast": {
+        "utc": "2026-11-25T07:00:00Z",
+        "local": "2026-11-25T12:00:00+05:00"
+      }
+    }
+  ]
+}
