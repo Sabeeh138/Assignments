@@ -15,8 +15,8 @@ p=.11, H=6, B=$1220, T=8 s.
 and `ASSUMPTIONS.txt` document AI assistance and every major assumption.
 
 **Read SUBMISSION_CHECKLIST.md before uploading.** Q3, Q4 and Q5 and Q2 theory
-are completed. Real GPU experiments, successful two-day observed API timing,
-some Q1 quota/cache/speed research remain incomplete. The screenshot and benchmark pairs are now included. Missing empirical evidence is not replaced with simulated scores.
+are completed. Real GPU experiments and some Q1 quota/cache/speed research remain incomplete.
+Successful two-day API timings are included; observed station values are stale. The screenshot and benchmark pairs are now included. Missing empirical evidence is not replaced with simulated scores.
 
 Calculation notebooks have stored outputs from actual local execution. The Q2
 training notebook has no outputs and is intended for an NVIDIA CUDA GPU runtime.

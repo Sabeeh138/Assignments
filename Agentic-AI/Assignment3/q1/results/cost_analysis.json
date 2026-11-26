@@ -248,8 +248,8 @@
           "llm_seconds_expected": 5.54
         }
       ],
-      "seconds": 31.910144900131037,
-      "tool_delay_assumed": 0.7135241500218399,
+      "seconds": 30.74845910018403,
+      "tool_delay_assumed": 0.5199098500306718,
       "status": "SCENARIO, NOT MEASURED"
     },
     "Gemini 2.5 Flash-Lite": {
@@ -318,21 +318,21 @@
           "llm_seconds_expected": 3.7733333333333334
         }
       ],
-      "seconds": 23.002478233464373,
-      "tool_delay_assumed": 0.7135241500218399,
+      "seconds": 21.840792433517365,
+      "tool_delay_assumed": 0.5199098500306718,
       "status": "SCENARIO, NOT MEASURED"
     }
   },
   "changed_architecture": {
     "GPT-4.1 nano": {
-      "seconds": 3.5584659000374375,
+      "seconds": 3.3292909999941473,
       "input_per_query": 2775.0000000000005,
       "output_per_query": 133.20000000000002,
       "assumed_output_tokens": 120,
       "non_llm_routing_validated": false
     },
     "Gemini 2.5 Flash-Lite": {
-      "seconds": 3.0774659000374376,
+      "seconds": 2.8482909999941475,
       "input_per_query": 2775.0000000000005,
       "output_per_query": 133.20000000000002,
       "assumed_output_tokens": 120,
@@ -341,17 +341,24 @@
   },
   "tool_timing_basis": {
     "primary": {
-      "n": 80,
+      "n": 160,
       "successful_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
-      "pooled_median_seconds": 0.7135241500218399,
+      "pooled_median_seconds": 0.5199098500306718,
+      "per_tool_median_seconds": {
+        "weather": 1.6500752000138164,
+        "air_quality_observed": 1.858495699998457,
+        "heat_index": 2.1300045773386955e-05,
+        "knowledge_base": 2.3999949917197227e-05
+      },
       "selection": "Latest 20 successful calls/tool/date; all attempts retained in raw log. Four tools, equal weighting."
     },
-    "pooled_seconds": 0.7135241500218399,
-    "parallel_remote_estimate_seconds": 2.0876758999656886,
-    "local_estimate_seconds": 4.000007174909115e-05,
-    "caveat": "One date only. Parallel delay uses max of individual medians, not a measured parallel run. OpenAQ values are stale; valid for API timing only."
+    "pooled_seconds": 0.5199098500306718,
+    "parallel_remote_estimate_seconds": 1.858495699998457,
+    "local_estimate_seconds": 4.529999569058418e-05,
+    "caveat": "Dates and sample counts are recorded in primary. Parallel delay uses max of individual medians, not a measured parallel run. OpenAQ values are stale; valid for API timing only."
   },
   "break_even": {
     "scope": "Changed architecture, uncached cheaper API at .10/.40; 4 s assumed resident-session occupancy",

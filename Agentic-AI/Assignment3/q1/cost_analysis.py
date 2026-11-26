@@ -49,8 +49,9 @@ def analyze():
     timing=json.loads(timing_path.read_text()) if timing_path.exists() else {}
     primary=timing.get('primary_balanced_measurements',{})
     delay=primary.get('pooled_median_seconds') or .5
-    remote=max(timing.get('weather',{}).get('median_seconds') or .5,timing.get('air_quality_observed',{}).get('median_seconds') or .5)
-    local=sum(timing.get(name,{}).get('median_seconds') or .00005 for name in ['heat_index','knowledge_base'])
+    per_tool=primary.get('per_tool_median_seconds',{})
+    remote=max(per_tool.get(name) or timing.get(name,{}).get('median_seconds') or .5 for name in ['weather','air_quality_observed'])
+    local=sum(per_tool.get(name) or timing.get(name,{}).get('median_seconds') or .00005 for name in ['heat_index','knowledge_base'])
     lat={'GPT-4.1 nano':latency(x,.3,120,delay),'Gemini 2.5 Flash-Lite':latency(x,.2,180,delay)}
     # Architectural change: deterministic intent/slot router + parallel weather/AQ,
     # local HI and KB, one 120-token response generated from 2,500 input tokens.
@@ -83,7 +84,7 @@ def analyze():
     with (out/'break_even_curve.csv').open('w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=list(curve[0]));w.writeheader();w.writerows(curve)
     result={'monthly_costs':rows,'latency_scenarios':lat,'changed_architecture':arch,
-            'tool_timing_basis':{'primary':primary,'pooled_seconds':delay,'parallel_remote_estimate_seconds':remote,'local_estimate_seconds':local,'caveat':'One date only. Parallel delay uses max of individual medians, not a measured parallel run. OpenAQ values are stale; valid for API timing only.'},
+            'tool_timing_basis':{'primary':primary,'pooled_seconds':delay,'parallel_remote_estimate_seconds':remote,'local_estimate_seconds':local,'caveat':'Dates and sample counts are recorded in primary. Parallel delay uses max of individual medians, not a measured parallel run. OpenAQ values are stale; valid for API timing only.'},
             'break_even':{'scope':f'Changed architecture, uncached cheaper API at .10/.40; {holding:g} s assumed resident-session occupancy','assumed_resident_session_seconds':holding,
               'api_usd_per_query':api_unit,'monthly_api_per_daily_Q':api_monthly_per_daily_q,'gpu_step_daily_queries':span,
               'lease_per_gpu_month':lease,'crossing_intervals':cross,'search_upper_daily_Q':limit,

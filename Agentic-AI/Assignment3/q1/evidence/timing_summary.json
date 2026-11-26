@@ -1,75 +1,88 @@
 {
   "weather": {
-    "attempts": 60,
-    "successes": 40,
+    "attempts": 80,
+    "successes": 60,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 1.910299799987115
+    "median_seconds": 1.7362664000247605
   },
   "air_quality_modelled": {
-    "attempts": 60,
-    "successes": 40,
+    "attempts": 80,
+    "successes": 60,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 1.9595626999507658
+    "median_seconds": 1.7892264999682084
   },
   "heat_index": {
-    "attempts": 60,
-    "successes": 60,
+    "attempts": 80,
+    "successes": 80,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 2.045003930106759e-05
+    "median_seconds": 1.8749968148767948e-05
   },
   "knowledge_base": {
-    "attempts": 60,
-    "successes": 60,
+    "attempts": 80,
+    "successes": 80,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 1.9550032448023558e-05
+    "median_seconds": 1.919991336762905e-05
   },
   "openaq_observed_probe": {
-    "attempts": 3,
-    "successes": 1,
+    "attempts": 4,
+    "successes": 2,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 2.5506918999599293
+    "median_seconds": 2.3986969999969006
   },
   "air_quality_observed": {
-    "attempts": 20,
-    "successes": 20,
+    "attempts": 40,
+    "successes": 40,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "median_seconds": 2.0876758999656886
+    "median_seconds": 1.858495699998457
   },
   "balanced_observed_tool_pool": {
-    "samples_per_tool": 20,
-    "median_seconds": 0.7135241500218399
+    "samples_per_tool": 40,
+    "median_seconds": 0.5199098500306718
   },
   "balanced_modelled_tool_pool_provisional_only": {
-    "samples_per_tool": 40,
-    "median_seconds": 0.6999592499341816
+    "samples_per_tool": 60,
+    "median_seconds": 0.5377743999706581
   },
-  "pooled_local_and_network_median_seconds": 0.7135241500218399,
+  "pooled_local_and_network_median_seconds": 0.5199098500306718,
   "pooled_delay_usable": true,
-  "assignment_two_day_observed_requirement_complete": false,
+  "assignment_two_day_observed_requirement_complete": true,
   "latest_observed_age_hours": {
-    "pm10": 24021.512466347223,
-    "pm25": 24021.512466347223
+    "pm10": 17978.528481363886,
+    "pm25": 17978.528481363886
   },
   "latest_observed_fresh_within_48_hours": false,
   "freshness_note": "API timing success does not establish that observations are current. Retain original measurement dates.",
   "primary_balanced_measurements": {
-    "n": 80,
+    "n": 160,
     "successful_dates": [
-      "2026-11-25"
+      "2026-11-25",
+      "2026-11-26"
     ],
-    "pooled_median_seconds": 0.7135241500218399,
+    "pooled_median_seconds": 0.5199098500306718,
+    "per_tool_median_seconds": {
+      "weather": 1.6500752000138164,
+      "air_quality_observed": 1.858495699998457,
+      "heat_index": 2.1300045773386955e-05,
+      "knowledge_base": 2.3999949917197227e-05
+    },
     "selection": "Latest 20 successful calls/tool/date; all attempts retained in raw log. Four tools, equal weighting."
   }
 }

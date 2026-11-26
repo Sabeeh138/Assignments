@@ -1,7 +1,7 @@
 {
   "latitude": 24.850615,
   "longitude": 66.992485,
-  "generationtime_ms": 0.04458427429199219,
+  "generationtime_ms": 14.422416687011719,
   "utc_offset_seconds": 18000,
   "timezone": "Asia/Karachi",
   "timezone_abbreviation": "GMT+5",
@@ -14,10 +14,10 @@
     "wind_speed_10m": "km/h"
   },
   "current": {
-    "time": "2026-11-25T15:00",
+    "time": "2026-11-26T20:30",
     "interval": 900,
-    "temperature_2m": 27.9,
-    "relative_humidity_2m": 58,
-    "wind_speed_10m": 11.9
+    "temperature_2m": 24.2,
+    "relative_humidity_2m": 77,
+    "wind_speed_10m": 5.5
   }
 }

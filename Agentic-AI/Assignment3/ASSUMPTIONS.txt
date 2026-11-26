@@ -11,7 +11,7 @@ Cache scenario: 720 creations/month; all other matching requests hit. Where
 minimum length/lifetime could not be verified, no open-provider reduction is used.
 Lowest-reasoning output surcharges remain unknown for Grok 4.7 and gpt-oss-120b.
 Latency speeds: 120/180 tokens/s, .3/.2-second initial TTFT, .00005 seconds per
-additional input token, .5-second tools: explicit planning inputs, not measurements.
+additional input token, two-day measured tool median 0.519909850 seconds. Model speeds are planning inputs.
 GPU: A100 PCIe 80GB interpreted conservatively as 80e9 bytes; 10% reserved.
 Self-host occupancy: 60 s original-loop scenario; 4 s changed-workflow scenario.
 Changed workflow: deterministic router, parallel AQ/weather, local HI/KB,

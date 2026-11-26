@@ -15,8 +15,8 @@ The remaining requirements are listed explicitly instead of replaced with invent
 | Q1 peak load, memory, GPU count | Calculated scenario | Config and metadata verified; concurrency depends on assumed residency |
 | Q1 config screenshot | Complete | Captured browser PNG in sources/ and report appendix |
 | Q1 real cloud price and step-function break-even plot | Calculated scenario | Advertised price, explicit assumptions and no-crossing proof included |
-| Q1 two candidates and architectural recalculation | Scenario only | Real LLM speed and successful mixed tool-delay measurements still required |
-| Q1 raw timing log | Included, incomplete requirement | First-day 80-call balanced primary log complete; second date pending; observed values are stale |
+| Q1 two candidates and architectural recalculation | Scenario only | Representative LLM speed measurements still required |
+| Q1 raw timing log | Two-day timings complete | 160 balanced calls on 25/26 November; observed values are stale |
 | Q1 AI declaration | Complete | Report and root AI_USE_DECLARATION.txt |
 | Q2 Section 1 (a)-(d) | Complete | q2/Question_2_Theory.pdf and notebook |
 | Q2 full experiment implementation | Included, format/compile checked | q2/Assignment_Beta_Question_no_2_23K-0002.ipynb; all eight run controls enabled |
@@ -29,8 +29,8 @@ The remaining requirements are listed explicitly instead of replaced with invent
 | Q5 two-page paper summary | Complete | q5/Question_5_Two_Page_Summary.pdf; paper reference included |
 | Cross-question AI-use declaration | Complete | AI_USE_DECLARATION.txt |
 
-To finish Q2, follow q2/RUN_ON_COLAB.md on a CUDA GPU. To finish the Q1 timing
-requirement, follow q1/RUN_TIMINGS.md on two real dates with observed air data.
+To finish Q2, follow q2/RUN_ON_COLAB.md on a CUDA GPU. Q1 has successful
+two-day API timing logs; freshness of the observed pollutant values remains a limitation.
 The local environment has CPU-only PyTorch. Automatic permission review for
 direct public-API access initially failed, then succeeded. The supplied OpenAQ
 key is stored only in an ignored local directory and is excluded from packaging.

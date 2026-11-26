@@ -1,8 +1,7 @@
 # Complete the two-day timing evidence
 
-The raw CSV retains earlier failed attempts. The first successful balanced primary
-CSV contains 20 weather, 20 observed-AQ, 20 HI and 20 KB calls. A second date
-is pending. The observed station values are stale: retain timestamps and never
+The raw CSV retains earlier failed attempts. The two balanced primary CSVs contain 20 weather, 20 observed-AQ, 20 HI and
+20 KB calls each on 25 and 26 November 2026 (160 total). The observed station values are stale: retain timestamps and never
 use them as current pollution information.
 Do not count network failures or local-only medians as successful API latency.
 
@@ -20,4 +19,5 @@ No API key is included in the package. Record only your own actual observations.
 The CSV is append-only. Do not change timestamps to manufacture a second day.
 After successful two-day measurements, update the report's latency calculation
 with the pooled observed weather/AQ/HI/KB measurements and actual model timings.
-The preliminary scenario uses 0.5 seconds as an explicit assumption instead.
+The updated sequential scenario uses the measured two-day pooled median,
+0.519909850 seconds. Model TTFT/TPS remain planning assumptions.

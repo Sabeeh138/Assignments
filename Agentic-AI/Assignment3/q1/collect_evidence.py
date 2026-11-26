@@ -198,7 +198,7 @@ def summarize():
         primary_rows=[]
         for path in (ROOT/'evidence').glob('tool_latency_primary_*.csv'):
             primary_rows.extend(csv.DictReader(path.open(encoding='utf-8')))
-        stats['primary_balanced_measurements']={'n':len(primary_rows),'successful_dates':sorted({r['timestamp_karachi'][:10] for r in primary_rows}),'pooled_median_seconds':statistics.median(float(r['elapsed_seconds']) for r in primary_rows) if primary_rows else None,'selection':'Latest 20 successful calls/tool/date; all attempts retained in raw log. Four tools, equal weighting.'}
+        stats['primary_balanced_measurements']={'n':len(primary_rows),'successful_dates':sorted({r['timestamp_karachi'][:10] for r in primary_rows}),'pooled_median_seconds':statistics.median(float(r['elapsed_seconds']) for r in primary_rows) if primary_rows else None,'per_tool_median_seconds':{name:statistics.median(float(r['elapsed_seconds']) for r in primary_rows if r['tool']==name) for name in names} if primary_rows else {},'selection':'Latest 20 successful calls/tool/date; all attempts retained in raw log. Four tools, equal weighting.'}
     (ROOT/'evidence'/'timing_summary.json').write_text(json.dumps(stats,indent=2),encoding='utf-8')
     print(json.dumps(stats,indent=2))
 
