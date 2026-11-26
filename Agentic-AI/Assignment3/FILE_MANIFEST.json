@@ -32,7 +32,7 @@
   {
     "file": "NOTEBOOK_VALIDATION.json",
     "bytes": 535,
-    "sha256": "bf0ef6a9011ba1ebb40830446b5615896b40db9c79d03c9186bd261b392859d4"
+    "sha256": "70b9fb76554687f6307c2ebf8304b8ec7fc1881e42ce05bd45e02b251a1909b6"
   },
   {
     "file": "q1/.gitignore",
@@ -281,8 +281,8 @@
   },
   {
     "file": "q2/Assignment_Beta_Question_no_2_23K-0002.ipynb",
-    "bytes": 109090,
-    "sha256": "a304d5963fab59cc27e47e65f6f36e3d77d5decd2e6c8b3810a1783390a66d3f"
+    "bytes": 110173,
+    "sha256": "5ec9ef537dc702c33960f13faec85e9720d33e90bab8f2ffe99f9a3a1f8bcdfb"
   },
   {
     "file": "q2/Question_2_Report.pdf",
@@ -295,9 +295,9 @@
     "sha256": "e68f590f8df4b1f134d4067a3ef695f662a6718aa0f452acaf4efb670d8a4238"
   },
   {
-    "file": "q2/RUN_ON_COLAB.md",
-    "bytes": 1340,
-    "sha256": "0a19b9f9fe7c1a764e4ebda3ae62a35a4893744c7dd1d8787dda7205eb8e7837"
+    "file": "q2/RUN_ON_KAGGLE.md",
+    "bytes": 1723,
+    "sha256": "30893a9924e6e9fdb3615c081ec144a3fb6793ae6fa829ab3bc7896b75e03600"
   },
   {
     "file": "q3/Assignment_Beta_Question_no_3_23K-0002.ipynb",
@@ -356,7 +356,7 @@
   },
   {
     "file": "SUBMISSION_CHECKLIST.md",
-    "bytes": 3741,
-    "sha256": "1ab9868f16e134a07f9d564faac29bc18f14228e85286016b102e190256f6e4f"
+    "bytes": 3742,
+    "sha256": "5b95bf850b2375c910872c988904474a5ca057fa88093498a9be35eabf31a12b"
   }
 ]

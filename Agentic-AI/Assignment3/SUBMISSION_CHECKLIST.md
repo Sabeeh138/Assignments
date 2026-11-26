@@ -29,7 +29,7 @@ The remaining requirements are listed explicitly instead of replaced with invent
 | Q5 two-page paper summary | Complete | q5/Question_5_Two_Page_Summary.pdf; paper reference included |
 | Cross-question AI-use declaration | Complete | AI_USE_DECLARATION.txt |
 
-To finish Q2, follow q2/RUN_ON_COLAB.md on a CUDA GPU. Q1 has successful
+To finish Q2, follow q2/RUN_ON_KAGGLE.md on a CUDA GPU. Q1 has successful
 two-day API timing logs; historical observed values are disclosed and rejected by the tested freshness guard.
 The two unavailable provider values are handled in the uncertainty paragraph
 explicitly requested by Q1; no account quota or cache condition is invented.
