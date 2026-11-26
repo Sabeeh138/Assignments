@@ -4,7 +4,9 @@
 2. Enable Internet and select an NVIDIA GPU in Settings / Session options.
    Prefer T4 if available. The notebook uses only GPU 0, even on T4 x2.
 3. Run the installation cell first. If it requests a session restart, restart
-   the Python session once, then rerun from that cell. Python 3.10-3.12 is required.
+   the Python session once, then rerun from that cell. Python 3.10-3.13 is supported.
+   Python 3.13 selects PyTorch 2.8/CUDA 12.6 and NumPy 2.2.6; older supported
+   Python versions retain PyTorch 2.6/CUDA 12.4 and NumPy 2.0.2.
 4. Run all remaining cells in order. All eight run controls are enabled.
    No Google Drive mount is needed. Results go to
    /kaggle/working/Assignment_Beta_Q2.
