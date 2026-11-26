@@ -11,28 +11,28 @@
   },
   {
     "file": "All_Questions.pdf",
-    "bytes": 181702,
-    "sha256": "8b94742b679e6aaf0e1599733bb364103649dd1df6cd7d34b9d1fd27b0651531"
+    "bytes": 182416,
+    "sha256": "34c14ef1a30168d40a83b066ad7a751708a0377e2019a4fc49fb0f9ecc580fc1"
   },
   {
     "file": "ASSUMPTIONS.txt",
-    "bytes": 1542,
-    "sha256": "e765813a6cbb6f865107b296f3379fc121ade60a680f19e61b8c624b40a22751"
+    "bytes": 2090,
+    "sha256": "5ab3243ca2fe1cb0ff070db2bb1dbd935bd32a36a203b996d8f0531b47e0e9db"
   },
   {
     "file": "CALCULATION_VALIDATION.json",
-    "bytes": 493,
-    "sha256": "0b7a1b9d85357b7fdad1c44d0e2173b13c112305e59713da2dedb042ef5f5b23"
+    "bytes": 546,
+    "sha256": "1101bceeef3d5c3960c060d199e22c53f6fcf8ca5cfdfa8bbed61121ed0b40c0"
   },
   {
     "file": "DOCUMENT_VALIDATION.json",
-    "bytes": 565,
-    "sha256": "934a68824ac9d9d94c1e3952741cae6cc3c64c6497c6deefcbd3f991dd462bfe"
+    "bytes": 566,
+    "sha256": "fa8a132b9efe690e19386138d76f5500a7fabef65c3c3a118386b61e9bec8a8a"
   },
   {
     "file": "NOTEBOOK_VALIDATION.json",
-    "bytes": 602,
-    "sha256": "f5fd0f44c30d340aaac022fe868af14823d0402abe54a10c51158774de9ca3f6"
+    "bytes": 535,
+    "sha256": "bf0ef6a9011ba1ebb40830446b5615896b40db9c79d03c9186bd261b392859d4"
   },
   {
     "file": "q1/.gitignore",
@@ -41,8 +41,8 @@
   },
   {
     "file": "q1/Assignment_Beta_Question_no_1_23K-0002.ipynb",
-    "bytes": 35634,
-    "sha256": "2d5362dd505b449d8e13cb217187e8a79a520cf57f264ec38ee8e314ad6283e2"
+    "bytes": 71672,
+    "sha256": "4714b87998c54f3d9dea8386afd1ec113253caa49822cc71188285e28adedaa0"
   },
   {
     "file": "q1/build_catalog.py",
@@ -61,8 +61,8 @@
   },
   {
     "file": "q1/cost_analysis.py",
-    "bytes": 6900,
-    "sha256": "62c55d3ed0759af07f701e3dfba02ba551b4445e5daf8c075e45e73acae67049"
+    "bytes": 7051,
+    "sha256": "b5781e546d7fe55e9675962978fd5d9b45b34fbf65beb708e8ee0666fdfb9cde"
   },
   {
     "file": "q1/evidence/air_quality_modelled_latest.json",
@@ -73,6 +73,11 @@
     "file": "q1/evidence/air_quality_observed_latest.json",
     "bytes": 1768,
     "sha256": "9c67c287b98c499e88ff841b4b916dcc67ab2ba6885551e88403d5620dc218c5"
+  },
+  {
+    "file": "q1/evidence/freshness_guard_validation.json",
+    "bytes": 1773,
+    "sha256": "bb36d6492d76977778c0e0ae0a15d0a0f67119d8980629516533fc37a433eb18"
   },
   {
     "file": "q1/evidence/openaq_locations_public.json",
@@ -106,33 +111,118 @@
   },
   {
     "file": "q1/figures/q1_break_even.png",
-    "bytes": 51742,
-    "sha256": "bc2f5bf13daa961662b1a50f3e62178dd44bedc4e96ea34f0f92bf87403660e8"
+    "bytes": 47876,
+    "sha256": "66d6ce02d2f0f42182e3cdd55bd9e3d4fef56715a3cd172113577125356a50bf"
   },
   {
     "file": "q1/figures/q1_monthly_costs.png",
-    "bytes": 69866,
-    "sha256": "5396f9a6f4b9c88564e42e7ee1049d726b95e4ba26c2d10985d5a49230665071"
+    "bytes": 73226,
+    "sha256": "085fe16ecaa2b67f8856b500598bb9fd9f2eadb9566434867593535f44e1e870"
+  },
+  {
+    "file": "q1/final_analysis.py",
+    "bytes": 5184,
+    "sha256": "8ed972a70ff14a0f52a530cb0acdfa72259ad12c2c3bf0a9fb40ceecda8974fd"
+  },
+  {
+    "file": "q1/freshness_guard.py",
+    "bytes": 1165,
+    "sha256": "6446e44f6622c51c2aed3a499fa698ff1d6f81f1a3f3b08851cdce79470e31d9"
   },
   {
     "file": "q1/Question_1_Model_Comparison.pdf",
-    "bytes": 6621,
-    "sha256": "47c2ab51a2bb8db2ac0d70aeee399257e93ceefda0962b19ec4a75b3b14ae96a"
+    "bytes": 7274,
+    "sha256": "b76fad92a9d61052237aa9a387f8b054a65114dcc45a95b7a58eaafc89a112a8"
   },
   {
     "file": "q1/Question_1_Report.pdf",
-    "bytes": 101040,
-    "sha256": "173404c23cecd39ed10703f7da3ef7dad5fde9b0a8772ee3ae93f52f8ca19acd"
+    "bytes": 101110,
+    "sha256": "d636664696c2fdf3b57a3b44c564870119bc5ffbd2d9c982f660af57183fbe17"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_amazon__nova-lite-v1.json",
+    "bytes": 3280,
+    "sha256": "afe98809b894a7e20b0107e80008e3cd237ad28bfe430160b748ca568786f882"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_anthropic__claude-haiku-4.5.json",
+    "bytes": 7876,
+    "sha256": "c9a54cb1d5886bfffdf6745d6be41b637e2bf8e7384a3dcd9f08e16b3d80a594"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_anthropic__claude-sonnet-4.5.json",
+    "bytes": 11226,
+    "sha256": "00f7f7118dc1562d151827f86020cc02cb0eb9dbd1a05cb2dbe9640b19cfa7ab"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_deepseek__deepseek-chat-v3.1.json",
+    "bytes": 5550,
+    "sha256": "d3dcc0a0b96fc008858133404fd3a000ef71ab3c5e60f961f559638e5446e4bd"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_google__gemini-2.5-flash-lite.json",
+    "bytes": 6168,
+    "sha256": "2cae508cc4551682988a9c5d1a3c1d6e86f7845a60c7090a44b3c7878504bde2"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_meta-llama__llama-3.3-70b-instruct.json",
+    "bytes": 11669,
+    "sha256": "604b79946e0b21ec1bb849953c15b56f1c9e42a4cb144210441b1becaae59985"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_mistralai__mistral-small-3.2-24b-instruct.json",
+    "bytes": 8779,
+    "sha256": "c13ed21557e54d14c2767530dd26329f99c21d28bdbe402b77f5d5f4275f1b62"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_openai__gpt-4.1-mini.json",
+    "bytes": 3671,
+    "sha256": "e8788fdef1e113de36c0b1896fdad3f88bbc22691d5c104f096789799366b39f"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_openai__gpt-4.1-nano.json",
+    "bytes": 2104,
+    "sha256": "04ca9bc3747615640646b2dc9cde3872f1739c22fe3fd49dc6499f3027524f27"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_qwen__qwen3-235b-a22b-2507.json",
+    "bytes": 8725,
+    "sha256": "1c290f856d8da3ceaf3c3c550a9de42b417050006ab9bb0c4be396ae37250f82"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_qwen__qwen3-30b-a3b-instruct-2507.json",
+    "bytes": 3800,
+    "sha256": "a952676445a3de06b343157b41fc420ab3b1a253e844744f08a54df920aba919"
+  },
+  {
+    "file": "q1/research/completion_sources/endpoint_qwen__qwen3-32b.json",
+    "bytes": 8564,
+    "sha256": "ff9508e83fb43f1bbe34c6d4f8dd79dd5a7b9e6ef70ce246901a40fe1d6249d0"
+  },
+  {
+    "file": "q1/research/field_source_register.csv",
+    "bytes": 10785,
+    "sha256": "57c6de7202e347b81ec03cfd846b8a5c8a1e368e204e7a0e6d78625b94e5c1c5"
+  },
+  {
+    "file": "q1/research/final_model_catalog.json",
+    "bytes": 39087,
+    "sha256": "47a8989dcc38e425ded6b1e010a454ae0a02ffef301ae982a9f541ea333cce60"
   },
   {
     "file": "q1/research/model_catalog.csv",
-    "bytes": 8729,
-    "sha256": "a95a05bd084e10ea46c523ce6181bffde60328eff303a5ebaf956a1c3ec1a8d5"
+    "bytes": 26686,
+    "sha256": "183d891ece5d89d97b5251816849a13669a5fe82f6822ced6e4bd766aacc440e"
   },
   {
     "file": "q1/research/model_catalog.json",
-    "bytes": 17228,
-    "sha256": "acf4b0bfc065c67e2a0df5a45c117c5b8527527249dc24b4f39b37187959673d"
+    "bytes": 39087,
+    "sha256": "47a8989dcc38e425ded6b1e010a454ae0a02ffef301ae982a9f541ea333cce60"
+  },
+  {
+    "file": "q1/research/reported_speed_profiles.json",
+    "bytes": 3626,
+    "sha256": "1428bb53c1ff63ab0a92e8f6c8a827e5e705925f04976ef462d6a9825ef13728"
   },
   {
     "file": "q1/research/verified_endpoints.json",
@@ -146,8 +236,8 @@
   },
   {
     "file": "q1/results/break_even_curve.csv",
-    "bytes": 80434,
-    "sha256": "470df2e5efdf62d42ca36fa33812778aa319fcbc80c087a65dd3d321f760572d"
+    "bytes": 67840,
+    "sha256": "8524c4c33310912f6af617c59263e4db5f2ccec8b963be740bb04cd8a60d789a"
   },
   {
     "file": "q1/results/calculations.json",
@@ -156,13 +246,13 @@
   },
   {
     "file": "q1/results/cost_analysis.json",
-    "bytes": 12982,
-    "sha256": "b810f176da45a00f5bb997982c1ef6b07b837f75bf9adbdaac4567d39dc215dd"
+    "bytes": 16057,
+    "sha256": "ba50bcde36a3b8b9c8ba7e334826c17761c2be4f39e0a5890c870708ba5b51f3"
   },
   {
     "file": "q1/results/monthly_api_costs.csv",
-    "bytes": 2300,
-    "sha256": "3149841b59dcdb0b680c0b95fe9e74fc75bdb547ada5e5a13dab734c023d43af"
+    "bytes": 3123,
+    "sha256": "44663e081d6c538262a09f87f85d2542c671e125943eaeee94491d8277364c04"
   },
   {
     "file": "q1/RUN_TIMINGS.md",
@@ -196,13 +286,18 @@
   },
   {
     "file": "q1/update_verified_catalog.py",
-    "bytes": 3340,
-    "sha256": "5c2198852b1c569629a7c27bac88b7411f4154efe0270ed680d74322319aa1af"
+    "bytes": 3847,
+    "sha256": "71c0f21e22e3c33eec2d29ba933e0ac5219316495e4bd2edf784aae653e00533"
   },
   {
     "file": "Q1_PROGRESS.md",
-    "bytes": 1124,
-    "sha256": "5ec3e444b179b2c2fcd81354cfc5b6c1f1676c355fc763adb36ef4b4b712d15d"
+    "bytes": 1252,
+    "sha256": "f8e529a3b0af6805a5e88ebcdc9582df843ecb76f114b4cb50d1502fe1d3bc6a"
+  },
+  {
+    "file": "Q1_VALIDATION.json",
+    "bytes": 632,
+    "sha256": "750225a46e4bf63d55d1e23297b5b19db9e1996eae07c859c70e5246311cd30e"
   },
   {
     "file": "q2/Assignment_Beta_Question_no_2_23K-0002.ipynb",
@@ -286,12 +381,12 @@
   },
   {
     "file": "README.md",
-    "bytes": 1483,
-    "sha256": "3107071a37fc81dd791c7893b330f24725aabb15f14664175a792f4993311794"
+    "bytes": 1548,
+    "sha256": "5f158602620abf14cbcaa5990d8837412591b74fb2b256d50049af59b67c7f3d"
   },
   {
     "file": "SUBMISSION_CHECKLIST.md",
-    "bytes": 3443,
-    "sha256": "5259148b37a096991beb61f8d14b872b9a5cd91924614c9c3fd4ed9876dc146e"
+    "bytes": 3741,
+    "sha256": "1ab9868f16e134a07f9d564faac29bc18f14228e85286016b102e190256f6e4f"
   }
 ]

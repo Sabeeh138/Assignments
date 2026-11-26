@@ -4,6 +4,14 @@ from build_catalog import build
 ROOT=Path(__file__).resolve().parent
 
 def updated_catalog():
+    final=ROOT/'research'/'final_model_catalog.json'
+    if final.exists():
+        rows=json.loads(final.read_text(encoding='utf-8'))
+        (ROOT/'research/model_catalog.json').write_text(json.dumps(rows,indent=2),encoding='utf-8')
+        with (ROOT/'research/model_catalog.csv').open('w',newline='',encoding='utf-8') as f:
+            fields=list(dict.fromkeys(key for row in rows for key in row))
+            w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+        return rows
     rows=build()[:6]
     spec={
       'qwen/qwen3-32b':('Qwen3-32B','Alibaba Qwen','32.762B dense','Apache-2.0','Yes','enable_thinking=False'),

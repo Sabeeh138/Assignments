@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "models": 12,
+  "developers_per_side": 4,
+  "real_primary_timing_records": 160,
+  "successful_dates": [
+    "2026-11-25",
+    "2026-11-26"
+  ],
+  "independent_cost_and_latency_checks": "passed",
+  "freshness_guard": "passed",
+  "q1_executed_code_cells": 6,
+  "no_hidden_reasoning_cost_lower_bounds": true,
+  "no_finite_break_even_under_assumptions": true,
+  "disclosures": [
+    "New-account TPM entitlement unavailable publicly",
+    "DeepSeek routed cache granularity/lifetime not independently verified",
+    "Observed pollutant values historical; withheld from current summary"
+  ]
+}

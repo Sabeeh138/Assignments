@@ -17,5 +17,5 @@
   "monthly_queries": 83700,
   "q3_gradient_check": "passed",
   "q3_q4_values": "unchanged; calculation cells re-executed",
-  "q1_q2_empirical_gaps": "remain as listed in submission checklist"
+  "q1_q2_empirical_gaps": "Q1 estimates and explicit unavailable-value disclosures complete; Q2 GPU experiments pending."
 }

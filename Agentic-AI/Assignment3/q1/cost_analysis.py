@@ -41,6 +41,9 @@ def latency(x,ttft,tps,delay):
             'tool_delay_assumed':delay,'status':'SCENARIO, NOT MEASURED'}
 
 def analyze():
+    if (ROOT/'research/final_model_catalog.json').exists():
+        from final_analysis import analyze as final_analyze
+        return final_analyze()
     x=q1();models=build();rows=[model_cost(m,x) for m in models]
     out=ROOT/'results';out.mkdir(exist_ok=True)
     with (out/'monthly_api_costs.csv').open('w',newline='',encoding='utf-8') as f:

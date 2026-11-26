@@ -2,7 +2,7 @@
   "monthly_costs": [
     {
       "model": "GPT-4.1 mini",
-      "rate_evidence": "Retrieved official context/output/prices; rate limits, speed and benchmark scores NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 1512.09072,
       "cache_scenario_usd": 1241.5764672,
       "eligible_prefix": true,
@@ -17,9 +17,9 @@
     },
     {
       "model": "GPT-4.1 nano",
-      "rate_evidence": "Retrieved official model listing; price supported by GPT-4.1 launch table; remaining technical fields need recheck",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 378.02268,
-      "cache_scenario_usd": 310.3941168,
+      "cache_scenario_usd": 314.90268768,
       "eligible_prefix": true,
       "billable_cached_prefix": 1408,
       "cache_creations_assumed": 720,
@@ -32,7 +32,7 @@
     },
     {
       "model": "Claude Haiku 4.5",
-      "rate_evidence": "Retrieved official prices; other fields are documented configurations awaiting source recapture",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 4025.5515,
       "cache_scenario_usd": 4025.5515,
       "eligible_prefix": false,
@@ -47,7 +47,7 @@
     },
     {
       "model": "Claude Sonnet 4.5",
-      "rate_evidence": "Retrieved official prices; other fields are documented configurations awaiting source recapture",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 12076.6545,
       "cache_scenario_usd": 9483.7554,
       "eligible_prefix": true,
@@ -62,37 +62,37 @@
     },
     {
       "model": "Gemini 2.5 Flash-Lite",
-      "rate_evidence": "Retrieved public listing and pricing search result; caching/limits need recapture",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 378.02268,
-      "cache_scenario_usd": 292.64570999999995,
-      "eligible_prefix": true,
-      "billable_cached_prefix": 1500,
-      "cache_creations_assumed": 720,
-      "cache_hits_assumed": 640422.0,
-      "write_premium_usd": 0.0,
-      "storage_usd": 1.08,
-      "within_budget_uncached": true,
-      "within_budget_cache_scenario": true,
-      "reasoning_surcharge_unknown": false
-    },
-    {
-      "model": "Grok 4.7",
-      "rate_evidence": "Retrieved official context/input/output prices; total cost is a lower bound until reasoning tokens measured",
-      "uncached_usd": 7069.8042,
-      "cache_scenario_usd": 7069.8042,
+      "cache_scenario_usd": 378.02268,
       "eligible_prefix": false,
       "billable_cached_prefix": 0,
       "cache_creations_assumed": 0,
       "cache_hits_assumed": 0,
       "write_premium_usd": 0.0,
       "storage_usd": 0,
-      "within_budget_uncached": false,
-      "within_budget_cache_scenario": false,
-      "reasoning_surcharge_unknown": true
+      "within_budget_uncached": true,
+      "within_budget_cache_scenario": true,
+      "reasoning_surcharge_unknown": false
+    },
+    {
+      "model": "Amazon Nova Lite",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
+      "uncached_usd": 226.813608,
+      "cache_scenario_usd": 226.813608,
+      "eligible_prefix": false,
+      "billable_cached_prefix": 0,
+      "cache_creations_assumed": 0,
+      "cache_hits_assumed": 0,
+      "write_premium_usd": 0.0,
+      "storage_usd": 0,
+      "within_budget_uncached": true,
+      "within_budget_cache_scenario": true,
+      "reasoning_surcharge_unknown": false
     },
     {
       "model": "Qwen3-235B-A22B-Instruct-2507",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 309.465684,
       "cache_scenario_usd": 309.465684,
       "eligible_prefix": false,
@@ -107,7 +107,7 @@
     },
     {
       "model": "Qwen3-32B",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 234.0841248,
       "cache_scenario_usd": 234.0841248,
       "eligible_prefix": false,
@@ -122,7 +122,7 @@
     },
     {
       "model": "Llama-3.3-70B-Instruct",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 358.396704,
       "cache_scenario_usd": 358.396704,
       "eligible_prefix": false,
@@ -137,7 +137,7 @@
     },
     {
       "model": "Mistral-Small-3.2-24B-Instruct",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 207.187632,
       "cache_scenario_usd": 207.187632,
       "eligible_prefix": false,
@@ -152,7 +152,7 @@
     },
     {
       "model": "DeepSeek-V3.1",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
       "uncached_usd": 932.790465,
       "cache_scenario_usd": 932.790465,
       "eligible_prefix": false,
@@ -166,92 +166,22 @@
       "reasoning_surcharge_unknown": false
     },
     {
-      "model": "gpt-oss-120b",
-      "rate_evidence": "Retrieved public endpoint prices/context/output/features; cache policy/limits/speed NR",
-      "uncached_usd": 120.766545,
-      "cache_scenario_usd": 120.766545,
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "rate_evidence": "Public route listed active on 2026-11-26; primary endpoint quote and AA non-reasoning speed profile; unknown entitlements/cache conditions explicitly qualified",
+      "uncached_usd": 325.50093,
+      "cache_scenario_usd": 325.50093,
       "eligible_prefix": false,
       "billable_cached_prefix": 0,
       "cache_creations_assumed": 0,
       "cache_hits_assumed": 0,
       "write_premium_usd": 0.0,
       "storage_usd": 0,
-      "within_budget_uncached": null,
-      "within_budget_cache_scenario": null,
-      "reasoning_surcharge_unknown": true
+      "within_budget_uncached": true,
+      "within_budget_cache_scenario": true,
+      "reasoning_surcharge_unknown": false
     }
   ],
   "latency_scenarios": {
-    "GPT-4.1 nano": {
-      "terms": [
-        {
-          "k": 1,
-          "input": 2000,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.3,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.5705
-        },
-        {
-          "k": 2,
-          "input": 2800,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.33999999999999997,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.6149
-        },
-        {
-          "k": 3,
-          "input": 3600,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.38,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.6593
-        },
-        {
-          "k": 4,
-          "input": 4400,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.42,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.7037
-        },
-        {
-          "k": 5,
-          "input": 5200,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.45999999999999996,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.7481
-        },
-        {
-          "k": 6,
-          "input": 6000,
-          "output": 350,
-          "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.5,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 3.7925
-        },
-        {
-          "k": 7,
-          "input": 6800,
-          "output": 600,
-          "attempts_expected": 1,
-          "ttft_assumed_seconds": 0.54,
-          "tps_assumed": 120,
-          "llm_seconds_expected": 5.54
-        }
-      ],
-      "seconds": 30.74845910018403,
-      "tool_delay_assumed": 0.5199098500306718,
-      "status": "SCENARIO, NOT MEASURED"
-    },
     "Gemini 2.5 Flash-Lite": {
       "terms": [
         {
@@ -259,86 +189,184 @@
           "input": 2000,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.2,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.3803333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.0,
+          "llm_seconds_expected": 1.2654723127035832
         },
         {
           "k": 2,
           "input": 2800,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.24000000000000002,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.4247333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.04,
+          "llm_seconds_expected": 1.3098723127035832
         },
         {
           "k": 3,
           "input": 3600,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.28,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.4691333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.08,
+          "llm_seconds_expected": 1.3542723127035834
         },
         {
           "k": 4,
           "input": 4400,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.32,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.5135333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.12000000000000001,
+          "llm_seconds_expected": 1.3986723127035834
         },
         {
           "k": 5,
           "input": 5200,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.36,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.5579333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.16,
+          "llm_seconds_expected": 1.4430723127035832
         },
         {
           "k": 6,
           "input": 6000,
           "output": 350,
           "attempts_expected": 1.11,
-          "ttft_assumed_seconds": 0.4,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 2.6023333333333336
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.2,
+          "llm_seconds_expected": 1.4874723127035832
         },
         {
           "k": 7,
           "input": 6800,
           "output": 600,
           "attempts_expected": 1,
-          "ttft_assumed_seconds": 0.44000000000000006,
-          "tps_assumed": 180,
-          "llm_seconds_expected": 3.7733333333333334
+          "reported_ttft_seconds": 0.44,
+          "reported_end_to_end_tps": 307,
+          "context_increment_assumed_seconds": 0.24000000000000002,
+          "llm_seconds_expected": 2.194397394136808
         }
       ],
-      "seconds": 21.840792433517365,
-      "tool_delay_assumed": 0.5199098500306718,
-      "status": "SCENARIO, NOT MEASURED"
+      "seconds": 13.572690370542336,
+      "tool_delay_measured": 0.5199098500306718,
+      "status": "ESTIMATE from reported profile and measured tools; context slope assumed"
+    },
+    "Amazon Nova Lite": {
+      "terms": [
+        {
+          "k": 1,
+          "input": 2000,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.0,
+          "llm_seconds_expected": 3.133064516129033
+        },
+        {
+          "k": 2,
+          "input": 2800,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.04,
+          "llm_seconds_expected": 3.177464516129033
+        },
+        {
+          "k": 3,
+          "input": 3600,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.08,
+          "llm_seconds_expected": 3.221864516129033
+        },
+        {
+          "k": 4,
+          "input": 4400,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.12000000000000001,
+          "llm_seconds_expected": 3.266264516129033
+        },
+        {
+          "k": 5,
+          "input": 5200,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.16,
+          "llm_seconds_expected": 3.310664516129033
+        },
+        {
+          "k": 6,
+          "input": 6000,
+          "output": 350,
+          "attempts_expected": 1.11,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.2,
+          "llm_seconds_expected": 3.355064516129033
+        },
+        {
+          "k": 7,
+          "input": 6800,
+          "output": 600,
+          "attempts_expected": 1,
+          "reported_ttft_seconds": 1.66,
+          "reported_end_to_end_tps": 124,
+          "context_increment_assumed_seconds": 0.24000000000000002,
+          "llm_seconds_expected": 5.078709677419355
+        }
+      ],
+      "seconds": 27.66255587437758,
+      "tool_delay_measured": 0.5199098500306718,
+      "status": "ESTIMATE from reported profile and measured tools; context slope assumed"
     }
   },
   "changed_architecture": {
-    "GPT-4.1 nano": {
-      "seconds": 3.3292909999941473,
+    "Gemini 2.5 Flash-Lite": {
+      "seconds": 2.3746909999941477,
       "input_per_query": 2775.0000000000005,
       "output_per_query": 133.20000000000002,
-      "assumed_output_tokens": 120,
+      "api_usd_per_query": 0.00033078,
+      "monthly_usd": 27.686286,
+      "meets_T_estimate": true,
+      "reported_ttft": 0.44,
+      "reported_end_to_end_tps": 307,
+      "input_rate": 0.09999999999999999,
+      "output_rate": 0.39999999999999997,
       "non_llm_routing_validated": false
     },
-    "Gemini 2.5 Flash-Lite": {
-      "seconds": 2.8482909999941475,
+    "Amazon Nova Lite": {
+      "seconds": 3.7288909999941477,
       "input_per_query": 2775.0000000000005,
       "output_per_query": 133.20000000000002,
-      "assumed_output_tokens": 120,
+      "api_usd_per_query": 0.000198468,
+      "monthly_usd": 16.6117716,
+      "meets_T_estimate": true,
+      "reported_ttft": 1.66,
+      "reported_end_to_end_tps": 124,
+      "input_rate": 0.06,
+      "output_rate": 0.24,
       "non_llm_routing_validated": false
     }
   },
+  "candidate_choice": "Amazon Nova Lite",
+  "speed_profile_note": "AA end-to-end output speed already includes TTFT. max(TTFT,O/rate) is an explicit transfer estimate, plus assumed context-growth increment; not a service guarantee.",
   "tool_timing_basis": {
     "primary": {
       "n": 160,
@@ -358,13 +386,13 @@
     "pooled_seconds": 0.5199098500306718,
     "parallel_remote_estimate_seconds": 1.858495699998457,
     "local_estimate_seconds": 4.529999569058418e-05,
-    "caveat": "Dates and sample counts are recorded in primary. Parallel delay uses max of individual medians, not a measured parallel run. OpenAQ values are stale; valid for API timing only."
+    "caveat": "max of two individual medians estimates parallel wait; not a measured parallel run. Historical observed values are valid timing evidence, not current pollution."
   },
   "break_even": {
-    "scope": "Changed architecture, uncached cheaper API at .10/.40; 4 s assumed resident-session occupancy",
+    "scope": "Changed architecture, cheaper candidate meeting T by estimate: Amazon Nova Lite",
     "assumed_resident_session_seconds": 4.0,
-    "api_usd_per_query": 0.0003307800000000001,
-    "monthly_api_per_daily_Q": 0.017862120000000006,
+    "api_usd_per_query": 0.000198468,
+    "monthly_api_per_daily_Q": 0.010717272,
     "gpu_step_daily_queries": 28800.0,
     "lease_per_gpu_month": 1144.8,
     "crossing_intervals": [],
@@ -372,6 +400,25 @@
     "asymptotic_self_host_per_daily_Q": 0.03975,
     "no_crossing_at_any_volume": true,
     "self_host_at_current_Q_usd": 1144.8,
-    "api_at_current_Q_usd": 27.68628600000001
+    "api_at_current_Q_usd": 16.6117716
+  },
+  "latency_sensitivity": {
+    "0": {
+      "Gemini 2.5 Flash-Lite": 12.666690370542337,
+      "Amazon Nova Lite": 26.756555874377582
+    },
+    "5e-05": {
+      "Gemini 2.5 Flash-Lite": 13.572690370542336,
+      "Amazon Nova Lite": 27.66255587437758
+    },
+    "0.0002": {
+      "Gemini 2.5 Flash-Lite": 16.290690370542336,
+      "Amazon Nova Lite": 30.380555874377585
+    }
+  },
+  "changed_peak": {
+    "llm_rpm": 25.090625000000003,
+    "input_tpm": 62726.562500000015,
+    "output_tpm": 3010.8750000000005
   }
 }

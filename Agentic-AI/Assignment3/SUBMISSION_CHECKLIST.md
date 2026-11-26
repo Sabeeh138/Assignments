@@ -7,15 +7,15 @@ The remaining requirements are listed explicitly instead of replaced with invent
 | --- | --- | --- |
 | Q1 parameters and full token arithmetic | Complete | q1/Question_1_Report.pdf; executed notebook |
 | Q1 six closed + six open models, >=4 developers/side | Present | q1/Question_1_Model_Comparison.pdf; research/model_catalog.csv |
-| Q1 parameters/context/prices/features/licence research | Partial | Quoted fields and sources included; some fields require recapture |
+| Q1 parameters/context/prices/features/licence research | Complete with route qualifications | Active endpoint snapshots, field-specific URLs and access dates |
 | Q1 two benchmark scores for every model | Present | Twelve sourced pairs; modes/versions are explicit, not interchangeable |
-| Q1 new-paid RPM/TPM, reported TTFT/TPS | Incomplete | Provider account tiers and representative endpoint speed evidence needed |
-| Q1 current cache minima/TTL/write policies for every model | Partial | Conservative no-discount policy where unknown; revalidate quoted minima |
-| Q1 twelve monthly costs, cache cases, budget flags | Calculated | q1/results/monthly_api_costs.csv; reasoning surcharges remain unknown in two rows |
+| Q1 new-paid RPM/TPM, reported TTFT/TPS | Researched and disclosed | Twelve reported non-reasoning speed profiles; account-specific quotas marked unavailable as requested |
+| Q1 cache minima/TTL/write policies | Complete with uncertainty disclosure | Per-route table; no discount when eligibility or price is unverified |
+| Q1 twelve monthly costs, cache cases, budget flags | Complete | Replaced reasoning-only rows; all selected modes have zero hidden reasoning tokens |
 | Q1 peak load, memory, GPU count | Calculated scenario | Config and metadata verified; concurrency depends on assumed residency |
 | Q1 config screenshot | Complete | Captured browser PNG in sources/ and report appendix |
 | Q1 real cloud price and step-function break-even plot | Calculated scenario | Advertised price, explicit assumptions and no-crossing proof included |
-| Q1 two candidates and architectural recalculation | Scenario only | Representative LLM speed measurements still required |
+| Q1 two candidates and architectural recalculation | Complete estimates | Reported model profiles plus own measured tools; context-growth assumptions and sensitivity explicit |
 | Q1 raw timing log | Two-day timings complete | 160 balanced calls on 25/26 November; observed values are stale |
 | Q1 AI declaration | Complete | Report and root AI_USE_DECLARATION.txt |
 | Q2 Section 1 (a)-(d) | Complete | q2/Question_2_Theory.pdf and notebook |
@@ -30,7 +30,9 @@ The remaining requirements are listed explicitly instead of replaced with invent
 | Cross-question AI-use declaration | Complete | AI_USE_DECLARATION.txt |
 
 To finish Q2, follow q2/RUN_ON_COLAB.md on a CUDA GPU. Q1 has successful
-two-day API timing logs; freshness of the observed pollutant values remains a limitation.
+two-day API timing logs; historical observed values are disclosed and rejected by the tested freshness guard.
+The two unavailable provider values are handled in the uncertainty paragraph
+explicitly requested by Q1; no account quota or cache condition is invented.
 The local environment has CPU-only PyTorch. Automatic permission review for
 direct public-API access initially failed, then succeeded. The supplied OpenAQ
 key is stored only in an ignored local directory and is excluded from packaging.

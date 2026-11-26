@@ -5,9 +5,9 @@
   },
   "notebooks": {
     "q1": {
-      "cells": 11,
-      "compiled_code_cells": 5,
-      "executed_code_cells": 5
+      "cells": 14,
+      "compiled_code_cells": 6,
+      "executed_code_cells": 6
     },
     "q2": {
       "cells": 45,
@@ -24,6 +24,5 @@
       "compiled_code_cells": 4,
       "executed_code_cells": 4
     }
-  },
-  "q2_note": "Not executed on a GPU; no training results added."
+  }
 }

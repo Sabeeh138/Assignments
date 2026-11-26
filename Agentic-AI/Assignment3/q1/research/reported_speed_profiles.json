@@ -1,0 +1,110 @@
+[
+  {
+    "model": "GPT-4.1 mini",
+    "ttft_seconds": 1.64,
+    "end_to_end_tps": 78,
+    "source": "https://artificialanalysis.ai/models/gpt-4-1-mini",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "GPT-4.1 nano",
+    "ttft_seconds": 0.99,
+    "end_to_end_tps": 161,
+    "source": "https://artificialanalysis.ai/models/gpt-4-1-nano",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "ttft_seconds": 1.17,
+    "end_to_end_tps": 93,
+    "source": "https://artificialanalysis.ai/models/claude-4-5-haiku",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Claude Sonnet 4.5",
+    "ttft_seconds": 1.29,
+    "end_to_end_tps": 59,
+    "source": "https://artificialanalysis.ai/models/claude-4-5-sonnet",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Gemini 2.5 Flash-Lite",
+    "ttft_seconds": 0.44,
+    "end_to_end_tps": 307,
+    "source": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Amazon Nova Lite",
+    "ttft_seconds": 1.66,
+    "end_to_end_tps": 124,
+    "source": "https://artificialanalysis.ai/models/nova-lite",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Qwen3-235B-A22B-Instruct-2507",
+    "ttft_seconds": 3.96,
+    "end_to_end_tps": 47,
+    "source": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Qwen3-32B",
+    "ttft_seconds": 1.09,
+    "end_to_end_tps": 103,
+    "source": "https://artificialanalysis.ai/models/qwen3-32b-instruct",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Llama-3.3-70B-Instruct",
+    "ttft_seconds": 2.23,
+    "end_to_end_tps": 64,
+    "source": "https://artificialanalysis.ai/models/llama-3-3-instruct-70b",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Mistral-Small-3.2-24B-Instruct",
+    "ttft_seconds": 2.57,
+    "end_to_end_tps": 33,
+    "source": "https://artificialanalysis.ai/models/mistral-small-3-2",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "DeepSeek-V3.1",
+    "ttft_seconds": 2.73,
+    "end_to_end_tps": 70,
+    "source": "https://artificialanalysis.ai/models/deepseek-v3-1",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  },
+  {
+    "model": "Qwen3-30B-A3B-Instruct-2507",
+    "ttft_seconds": 2.2,
+    "end_to_end_tps": 59,
+    "source": "https://artificialanalysis.ai/models/qwen3-30b-a3b-2507",
+    "access_date": "2026-11-26",
+    "mode": "non-reasoning",
+    "definition": "end-to-end tokens / total request seconds"
+  }
+]

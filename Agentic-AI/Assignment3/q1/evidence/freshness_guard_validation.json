@@ -1,0 +1,58 @@
+{
+  "tests": "PASS",
+  "cases": {
+    "valid": {
+      "usable_for_current_summary": true,
+      "age_hours": {
+        "pm25": 0.0,
+        "pm10": 0.0
+      },
+      "issues": [],
+      "action": "Use readings with original source and observation time"
+    },
+    "missing": {
+      "usable_for_current_summary": false,
+      "age_hours": {},
+      "issues": [
+        "pm25: missing",
+        "pm10: missing"
+      ],
+      "action": "Withhold current pollution number; state data unavailable/stale; retain provenance for audit"
+    },
+    "negative": {
+      "usable_for_current_summary": false,
+      "age_hours": {
+        "pm25": 0.0
+      },
+      "issues": [
+        "pm10: invalid value"
+      ],
+      "action": "Withhold current pollution number; state data unavailable/stale; retain provenance for audit"
+    },
+    "future": {
+      "usable_for_current_summary": false,
+      "age_hours": {
+        "pm25": -847.5,
+        "pm10": -847.5
+      },
+      "issues": [
+        "pm25: stale or future timestamp",
+        "pm10: stale or future timestamp"
+      ],
+      "action": "Withhold current pollution number; state data unavailable/stale; retain provenance for audit"
+    },
+    "real_historical_response": {
+      "usable_for_current_summary": false,
+      "age_hours": {
+        "pm25": 17979.5220772075,
+        "pm10": 17979.5220772075
+      },
+      "issues": [
+        "pm25: stale or future timestamp",
+        "pm10: stale or future timestamp"
+      ],
+      "action": "Withhold current pollution number; state data unavailable/stale; retain provenance for audit"
+    }
+  },
+  "fixture_note": "Synthetic boundary fixtures validate code only; real historical response uses original raw log."
+}

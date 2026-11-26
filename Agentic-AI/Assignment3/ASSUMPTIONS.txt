@@ -4,18 +4,26 @@ Name: Muhammad Sabeeh. Student roll: 23K-0002 (provided by user). R=2, digit sum
 Q=1550, N=7, p=.11, H=6, B=$1220, T=8 seconds.
 All notebooks have a student header and the actual roll number in their submission filenames.
 
-Q1 prices: primary retrieved API/provider endpoint quotations, dated 2026-11-25.
-Open endpoint selection is the cheapest observed active listed price for the
-original workload, including flex. It is not a global lowest-price certificate.
-Cache scenario: 720 creations/month; all other matching requests hit. Where
-minimum length/lifetime could not be verified, no open-provider reduction is used.
-Lowest-reasoning output surcharges remain unknown for Grok 4.7 and gpt-oss-120b.
-Latency speeds: 120/180 tokens/s, .3/.2-second initial TTFT, .00005 seconds per
-additional input token, two-day measured tool median 0.519909850 seconds. Model speeds are planning inputs.
-GPU: A100 PCIe 80GB interpreted conservatively as 80e9 bytes; 10% reserved.
-Self-host occupancy: 60 s original-loop scenario; 4 s changed-workflow scenario.
-Changed workflow: deterministic router, parallel AQ/weather, local HI/KB,
-one 2500-input/120-output-token call with .11 retry probability.
+Q1 quotes: public endpoint snapshots accessed 26 November 2026. Available
+means a serving route was listed, not the newest model release. Azure is the
+quoted GPT-4.1 route. Sonnet 4.5 is close to native retirement; not recommended.
+Open prices minimize this workload among retrieved active endpoints, including
+flex; this is not a certificate of a global market minimum.
+All selected modes avoid hidden reasoning tokens. Extra reasoning tokens = 0.
+Cache scenario: 720 prefix creations/month and warm stable-route hits otherwise.
+No cache discount when minimum, granularity or route price is unverified.
+Reported AA output rates include TTFT: max(TTFT,output/rate) avoids double
+counting; .00005 seconds per extra input token is an explicit context assumption.
+Two-day own-machine pooled tool median = .519909850 seconds.
+Parallel delay uses max(individual API medians), not a measured parallel run.
+GPU: A100 PCIe 80GB conservatively 80e9 bytes, 10% runtime reserve.
+Residency: 60s original-loop scenario, 4s changed-workflow scenario.
+Changed workflow: deterministic routing, parallel AQ/weather, local HI/KB,
+one 2500-input/120-output call with .11 probability of one repeated generation.
+Historical OpenAQ values are real timing evidence, not current pollution data.
+The 48h freshness gate is an application policy, not a clinical threshold.
+Unverified new-account TPM and DeepSeek routed cache granularity/lifetime are
+explicitly disclosed; no capacity guarantee or DeepSeek discount is asserted.
 
 Q2: exact 1800/200 train/test, seed-fixed methods, general Glaive benchmark if
 the exact business-tool inventory is unsupported. Real CUDA execution is pending.
