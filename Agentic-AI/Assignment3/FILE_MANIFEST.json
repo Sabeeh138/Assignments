@@ -11,8 +11,8 @@
   },
   {
     "file": "All_Questions.pdf",
-    "bytes": 182416,
-    "sha256": "34c14ef1a30168d40a83b066ad7a751708a0377e2019a4fc49fb0f9ecc580fc1"
+    "bytes": 182405,
+    "sha256": "cd13f59c0d4eff9d5d0623db2d8dad9841cda2d101025f9e703258c34af34349"
   },
   {
     "file": "ASSUMPTIONS.txt",
@@ -45,14 +45,9 @@
     "sha256": "4714b87998c54f3d9dea8386afd1ec113253caa49822cc71188285e28adedaa0"
   },
   {
-    "file": "q1/build_catalog.py",
-    "bytes": 5989,
-    "sha256": "b907e3e3653bee07dbe745c7d86ba1c02c32cd491010e4d6981fe91353101a36"
-  },
-  {
     "file": "q1/calculations.py",
-    "bytes": 7981,
-    "sha256": "2288d763c85f314179b17f9bd8cf6b17be4587d172b076709a2db34500750761"
+    "bytes": 2805,
+    "sha256": "68f5bc82a4311f1b2604b0464adbe9ac0494eb8cbeadf9cc9d58f83c5a7fdee2"
   },
   {
     "file": "q1/collect_evidence.py",
@@ -61,8 +56,8 @@
   },
   {
     "file": "q1/cost_analysis.py",
-    "bytes": 7051,
-    "sha256": "b5781e546d7fe55e9675962978fd5d9b45b34fbf65beb708e8ee0666fdfb9cde"
+    "bytes": 1991,
+    "sha256": "879fb934024a8f378bccc78a241fa80ac23a4d35e8f0507e134fbbb9645fa3bc"
   },
   {
     "file": "q1/evidence/air_quality_modelled_latest.json",
@@ -205,11 +200,6 @@
     "sha256": "57c6de7202e347b81ec03cfd846b8a5c8a1e368e204e7a0e6d78625b94e5c1c5"
   },
   {
-    "file": "q1/research/final_model_catalog.json",
-    "bytes": 39087,
-    "sha256": "47a8989dcc38e425ded6b1e010a454ae0a02ffef301ae982a9f541ea333cce60"
-  },
-  {
     "file": "q1/research/model_catalog.csv",
     "bytes": 26686,
     "sha256": "183d891ece5d89d97b5251816849a13669a5fe82f6822ced6e4bd766aacc440e"
@@ -225,24 +215,14 @@
     "sha256": "1428bb53c1ff63ab0a92e8f6c8a827e5e705925f04976ef462d6a9825ef13728"
   },
   {
-    "file": "q1/research/verified_endpoints.json",
-    "bytes": 4498,
-    "sha256": "078373979d63d1506a540ec4f3e55d5191b9f246a9945ba56503fa5c45752910"
-  },
-  {
-    "file": "q1/research/verified_updates.json",
-    "bytes": 5156,
-    "sha256": "22d08e240d20cabc182e593e00204764da40a86ebc490a7baa257a50778b1d9b"
-  },
-  {
     "file": "q1/results/break_even_curve.csv",
     "bytes": 67840,
     "sha256": "8524c4c33310912f6af617c59263e4db5f2ccec8b963be740bb04cd8a60d789a"
   },
   {
     "file": "q1/results/calculations.json",
-    "bytes": 8780,
-    "sha256": "6e519d1d71ea7f3e329ce34e7b591075f1a475afb130279ac4de1585fc8cf62a"
+    "bytes": 2108,
+    "sha256": "8aec16ca2ac4039fb68dfb7308b929ed9ad6c8b6507c7b48151073af9fa6b4f4"
   },
   {
     "file": "q1/results/cost_analysis.json",
@@ -286,8 +266,8 @@
   },
   {
     "file": "q1/update_verified_catalog.py",
-    "bytes": 3847,
-    "sha256": "71c0f21e22e3c33eec2d29ba933e0ac5219316495e4bd2edf784aae653e00533"
+    "bytes": 243,
+    "sha256": "71be8224c04feca32c7d98670b5ea3e496c871a92a8e760971627ee0f51c8abd"
   },
   {
     "file": "Q1_PROGRESS.md",
@@ -301,23 +281,13 @@
   },
   {
     "file": "q2/Assignment_Beta_Question_no_2_23K-0002.ipynb",
-    "bytes": 109117,
-    "sha256": "4e1f8399d47f12ec29db6731d7919775f4129bdb77a3773f28eac64c2f4c295a"
-  },
-  {
-    "file": "q2/authoring_validation.json",
-    "bytes": 1213,
-    "sha256": "37e207663fc2919fdfe4676b931cdac882fe0a5f921b1247d4e3527f64e52985"
-  },
-  {
-    "file": "q2/q2_report.py",
-    "bytes": 15388,
-    "sha256": "22223cc1010765759f77280de5540ad621cf564dac1628dbe3a76214d8471765"
+    "bytes": 109090,
+    "sha256": "a304d5963fab59cc27e47e65f6f36e3d77d5decd2e6c8b3810a1783390a66d3f"
   },
   {
     "file": "q2/Question_2_Report.pdf",
-    "bytes": 10478,
-    "sha256": "d15246a5d1c29538e871ba198d5ac49e44cf5aabfe78439e4fd0a8b9d5499f5a"
+    "bytes": 10467,
+    "sha256": "ad77858978676def5626feffa63e732b3652d256219ac3fbeb19f4ddaab37166"
   },
   {
     "file": "q2/Question_2_Theory.pdf",
@@ -326,8 +296,8 @@
   },
   {
     "file": "q2/RUN_ON_COLAB.md",
-    "bytes": 1445,
-    "sha256": "277f0c9a90ec528adb19b27fbcc38630173c7d24eeeb039762877d058a68fdb7"
+    "bytes": 1340,
+    "sha256": "0a19b9f9fe7c1a764e4ebda3ae62a35a4893744c7dd1d8787dda7205eb8e7837"
   },
   {
     "file": "q3/Assignment_Beta_Question_no_3_23K-0002.ipynb",
@@ -381,8 +351,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 1548,
-    "sha256": "5f158602620abf14cbcaa5990d8837412591b74fb2b256d50049af59b67c7f3d"
+    "bytes": 1524,
+    "sha256": "c6a91588d1f7bbc4da69101b5e08158b20d87286b22397856388b1c8bb20223f"
   },
   {
     "file": "SUBMISSION_CHECKLIST.md",

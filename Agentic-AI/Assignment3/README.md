@@ -16,10 +16,10 @@ See SUBMISSION_CHECKLIST.md for each requirement. All_Questions.pdf combines
 the reports. Q1_VALIDATION.json records arithmetic/evidence checks. Calculation
 notebooks store actual local outputs; Q2 has no experimental outputs.
 
-The authoritative Q1 catalog is q1/research/final_model_catalog.json, mirrored
-in model_catalog.json/CSV. Earlier verified_updates/endpoints files are research
-history, superseded by the final catalog. Exact public endpoint snapshots and
-field_source_register.csv preserve sources, dates and route qualifications.
+The authoritative Q1 catalog is q1/research/model_catalog.json, with a CSV
+view for review. Public endpoint snapshots and field_source_register.csv
+preserve sources, dates and route qualifications. Obsolete research snapshots,
+duplicate catalogs and internal authoring checks are excluded.
 
 No paid model generation, Urdu-quality pilot or GPU serving benchmark is claimed.
 Q1 requests estimates and reported model speed; those are distinguished from own

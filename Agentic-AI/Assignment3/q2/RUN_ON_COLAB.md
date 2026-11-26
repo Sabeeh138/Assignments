@@ -10,9 +10,7 @@
    checkpoints/adapters and the automatically generated Question_2_Report.pdf.
 7. Replace this folder's evidence-limited Question_2_Report.pdf with that actual report.
 
-No real CUDA experiment has been completed in this submission folder. The JSON
-authoring validation refers to earlier tiny CPU fixtures and corpus validation,
-not measured assignment accuracy. No experimental result is supplied in its place.
+No real CUDA experiment has been completed in this submission folder. No experimental result is supplied in place of actual GPU execution.
 
 The notebook uses a general Glaive function-calling benchmark if the exact four
 customer-support tools do not have 2000 eligible examples. The four-page report
