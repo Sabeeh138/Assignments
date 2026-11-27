@@ -1,7 +1,0 @@
-Pinar Ersoy and Mustafa Ersahin (2025).
-A Comparative Evaluation of RAG Architectures for Cross-Domain LLM Applications:
-Design, Implementation, and Assessment. IEEE Access 13, 194185-194196.
-DOI: https://doi.org/10.1109/ACCESS.2025.3632404
-Author-uploaded source: https://www.researchgate.net/publication/397593400
-Accessed 25 November 2026. The inspected author version states CC BY 4.0.
-The summary distinguishes table values, narrative claims and the writer's interpretation.
